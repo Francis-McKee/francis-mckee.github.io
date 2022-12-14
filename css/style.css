@@ -11,19 +11,6 @@ body {
   padding: 5px;
 }
 
-.header {
-  width: 100%;
-  height: 5%;
-}
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: 100px;
-}
-
 .noBullet {
   list-style-type: none;
  }
