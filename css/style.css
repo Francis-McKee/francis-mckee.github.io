@@ -48,7 +48,7 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: #9900ff;
+  color: #0B2265;
 }
 
 /* Add a color to the active/current link */
@@ -67,7 +67,7 @@ body {
 }
 
 .article a {
-  color: #9900ff;
+  color: #0B2265;
   text-align: center;
   text-decoration: none;
 }
@@ -80,7 +80,7 @@ li > img {
   width: 100%;
   height: 5%;
   text-align: center;
-  background-color: #9900ff;
+  background-color: #0B2265;
   color: white;
   text-decoration: none;
   padding: 10px;
