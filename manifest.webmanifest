@@ -4,7 +4,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/tank-icon.png",
+      "src": "images/Logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
