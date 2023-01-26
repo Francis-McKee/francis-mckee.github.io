@@ -1,0 +1,15 @@
+{
+  "background_color": "black",
+  "description": "Francis McKee's Web Portfolio",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/tank-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Francis McKee Web Portfolio",
+  "short_name": "FM Portfolio",
+  "start_url": "/index.html"
+}
