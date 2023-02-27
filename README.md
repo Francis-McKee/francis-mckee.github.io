@@ -1,7 +1,4 @@
 # Francis-McKee.github.io
-Francis McKee
-* 252-214-3054
-* frankmckee1203@gmail.com
 
 ## Description
 This is the official website of Francis McKee (me). This website was coded 100% by me (besides the occasional embeds from other sites) in native HTML, JavaScript, and CSS. The majority of this website was developed in 2022.
