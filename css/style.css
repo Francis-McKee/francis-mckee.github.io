@@ -37,12 +37,6 @@ body {
   background-color: #ddd;
   color: #0B2265;
 }
-
-/* Add a color to the active/current link */
-.topnav a:active {
-  background-color: #333333;
-  color: white;
-}
   
 .topnav-right {
   float: right;
