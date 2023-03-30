@@ -2,4 +2,4 @@
 short_name: zeeoban
 name: Zeeoban
 ---
-Category Zeeoban
+Blog posts related to the game [Zeeoban!](/games/zeeoban.html)
