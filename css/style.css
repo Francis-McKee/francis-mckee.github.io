@@ -1,6 +1,11 @@
 body {
   text-align: center;
   font-size: 16px;
+  box-sizing: border-box; /* contains in parent */
+}
+
+* {
+  box-sizing: inherit; /* inherits "box-sizing: border-box" above for all elements */
 }
 
 .wrapper {
@@ -29,7 +34,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
-  width: 6em;
+  width: 8em;
 }
 
 /* Change the color of links on hover */
@@ -51,10 +56,6 @@ body {
   color: #0B2265;
   text-align: center;
   text-decoration: none;
-}
-
-li > img {
-  border-bottom: 2px solid;
 }
 
 .footer {
@@ -85,17 +86,14 @@ li.block {
   border-width: 2px;
 }
 
-li.a {
-  text-align: center;
-}
-
-li.img {
-  width: 300px;
-  height: 250px;
+li > img {
+  border-bottom: 2px solid;
+  position: relative;
+  width: 100%;
 }
 
 li.block p {
   padding: 10px;
-  text-align: left;
+  text-align: center;
   width: 300px;
 }
