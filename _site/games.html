@@ -21,10 +21,16 @@
 </div>
         <br>
         <div class="article">
-            <h1>Games:</h1>
+            <style>
+  .cover_img {
+    object-fit: cover; /* makes image fill container block without being stretched, Zeeoban image not 300x250 px */
+  }
+</style>
+
+<h1>Games:</h1>
 <ul class="noBullet">
   <li class="block">
-    <img src="/images/games/Zeeoban.png" alt="Zeeoban Game Logo" width="300" height="250">
+    <img src="/images/games/Zeeoban.png" class="cover_img" alt="Zeeoban Game Logo" width="300" height="250">
     <p><a href="/games/zeeoban.html">Zeeoban</a></p>
     <p>Minimalist puzzle game modeled after Sokoban</p>
     <p>Platform: Windows</p>

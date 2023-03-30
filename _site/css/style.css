@@ -89,11 +89,11 @@ li.block {
 li > img {
   border-bottom: 2px solid;
   position: relative;
-  width: 100%;
+  width: 100%; /* set to fill 100% of container class block */
 }
 
 li.block p {
   padding: 10px;
   text-align: center;
-  width: 300px;
+  width: 100%; /* set to fill 100% of container class block */
 }
