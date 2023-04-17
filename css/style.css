@@ -15,10 +15,6 @@ body {
   padding: 5px;
 }
 
-.noBullet {
-  list-style-type: none;
- }
-
 .topnav {
   background-color: #0B2265;
   overflow: hidden;
@@ -74,25 +70,16 @@ body {
   text-decoration: none;
 }
 
-/* Block CSS */
-
 li.block {
-  display: block;
+  display: grid;
   float: left;
-  width: 300px;
-  margin: 10px;
+  width: 100%;
+  margin-top: 10px;
   border-style: solid;
   border-width: 2px;
 }
 
-li > img {
-  border-bottom: 2px solid;
-  position: relative;
-  width: 100%; /* set to fill 100% of container class block */
-}
-
 li.block p {
-  padding: 10px;
-  text-align: center;
+  text-align: left;
   width: 100%; /* set to fill 100% of container class block */
 }
