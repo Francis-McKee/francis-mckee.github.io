@@ -19,18 +19,71 @@
         <br>
         <div class="article">
             <style>
+
+  h1 {
+    text-align: center;
+  }
+
   form {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
     border: 1px solid #0B2265;
     border-radius: 15px;
     text-align: center;
   }
 
-  h1 {
-    text-align: center;
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
   }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #555;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+  button[type="submit"] {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16 px;
+    transition: background-color 0.3s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0B2265;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border-color: #555;
+    outline: none;
+  }
+
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder,
+  textarea::placeholder {
+    color: #999;
+  }
+
 </style>
 <p>You can reach me in a few ways:</p>
 <ul>
