@@ -34,6 +34,7 @@ body {
 
 .topnav a:last-child {
   float: right;
+  width: auto;
 }
 
 /* Change the color of topnav links on hover */
@@ -100,10 +101,12 @@ body {
   .topnav a {
     float: none;
     display: block;
+    width: 100%;
   }
 
   .topnav a:last-child {
     float: none;
     display: block;
+    width: 100%;
   }
 }
