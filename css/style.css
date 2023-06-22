@@ -98,12 +98,7 @@ body {
     width: 90%;
   }
 
-  .topnav a {
-    float: none;
-    display: block;
-    width: 100%;
-  }
-
+  .topnav a,
   .topnav a:last-child {
     float: none;
     display: block;
