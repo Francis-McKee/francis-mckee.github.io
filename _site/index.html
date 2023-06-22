@@ -8,17 +8,30 @@
   </head>
   <body>
     <div class="wrapper">
-        <div class="topnav">  
+        <div class="topnav">
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i> <!-- FontAwesome hamburger icon-->
+    </a>
     <a href="/"> Home </a>
     <a href="/resume.html"> Resume </a>
     <a href="/projects.html"> Projects </a>
     <a href="/contact.html"> Contact </a>
 </div>
+
+<script>
+
+    // Toggle menu on mobile devices
+    function toggleMenu() {
+        var topnav = document.querySelector(".topnav");
+        topnav.classList.toggle("responsive");
+    }
+
+</script>
         <br>
         <div class="article">
             <div class="header">
   <h1>About Me:</h1>
-    <p>Hello everyone, my name is Francis McKee, and I am a student at who is studying at Pitt Community College in Winterville, NC. After recieving an Associates in Science, I chose to further my education with the certificate "Simulation and Game Design: Programming". I chose to study to become a Game Developer and take the Programming certificate because I am specifically interested in the programming side of Game Design. I also plan to pursue a Bachelor's degree in Computer Science at Liberty University in Lynchburg, Virginia.
+    <p>Hello everyone, my name is Francis McKee, and I am a student at who is studying at Pitt Community College in Winterville, NC. After recieving an Associates in Science, I chose to further my education with the certificate "Simulation and Game Design: Programming". I also plan to pursue a Bachelor's degree in Computer Science at Liberty University in Lynchburg, Virginia starting in the fall semester of 2023.
     </p>
     <p>While I most enjoy creating websites and developing games, I also enjoy other programming projects! I have programming experience with the markup language HTML, styling language CSS, as well as with multiple programming languages including JavaScript, Jekyll, C#, TI-Basic (used in Texas Instruments calculators) and the game engine Unity. 
     </p>
