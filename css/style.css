@@ -23,7 +23,7 @@ body {
 
 /* CSS for hamburger icon */
 .topnav .icon {
-  display: none;
+  display: none; /* set so icon does not display, turned on for mobile devices below */
 }
 
 /* Style the links inside the navigation bar */
@@ -99,6 +99,11 @@ body {
   padding-right: 10px;
 }
 
+.am-img {
+  width: 10%;
+  height: 10%;
+}
+
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
   .block {
     width: 90%;
@@ -115,11 +120,11 @@ body {
 
   */
 
-  .topnav a:not(.icon) {
+  .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display */
     display: none;
   }
   
-  .topnav .icon {
+  .topnav .icon { /* icon now displays */
     float: right;
     display: block;
     cursor: pointer;
@@ -127,14 +132,21 @@ body {
   }
 
   .topnav.responsive a.icon {
+    background-color: #ddd; /* sets the background color to contrast rest of links so users know its active */
+    color: #0B2265; /* sets contrast from background color */
     position: absolute;
     top: 0;
     right: 0;
   }
 
-  .topnav.responsive a {
+  .topnav.responsive a { /* topnav links other than icon */
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .am-img {
+    width: 30%;
+    height: 30%;
   }
 }
