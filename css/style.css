@@ -40,7 +40,6 @@ body {
 .topnav a:last-child {
   float: right;
   width: 8em;
-  width: 8em;
 }
 
 /* Change the color of topnav links on hover */
@@ -120,7 +119,7 @@ body {
 
   */
 
-  .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display */
+  .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
     display: none;
   }
   
@@ -139,10 +138,15 @@ body {
     right: 0;
   }
 
-  .topnav.responsive a { /* topnav links other than icon */
+  .topnav.responsive a { /* topnav links including icon after icon pressed*/
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .topnav.responsive a:not(.icon) { /* topnav links NOT including icon after icon pressed */
+    width: 70%;
+    text-align: center;
   }
 
   .am-img {
