@@ -2,4 +2,4 @@
 short_name: random
 name: Random
 ---
-Blog posts that do not apply to a project based category will be included here.
+This is a custom category created for all posts that do not fall under a more specific category. For example, if someone had a blog about cars, then non car related posts could be put here.
