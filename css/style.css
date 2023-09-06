@@ -65,6 +65,7 @@ body {
 
 .text {
   width: 60%;
+  text-align: center;
 }
 
 .footer {
@@ -115,7 +116,7 @@ body {
   .text {
     width: 90%;
   }
-  
+
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
     display: none;
   }
