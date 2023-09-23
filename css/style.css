@@ -43,8 +43,8 @@ body {
 
 /* Change the color of topnav links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: #0B2265;
+  background-color: #888888;
+  color: white;
   font-size: 18px;
 }
 
