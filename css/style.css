@@ -98,6 +98,27 @@ body {
   padding-right: 10px;
 }
 
+.home-block {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  display: block;
+}
+
+.home-block p {
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home-block ul {
+  text-align: left;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .am-img {
   width: 10%;
   height: 10%;
