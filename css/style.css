@@ -19,7 +19,7 @@ body {
 .topnav {
   overflow: hidden;
   text-align: center;
-  font-family: 'Arvo', serif;
+  font-family: 'Cotford';
 }
 
 /* CSS for hamburger icon */
@@ -53,6 +53,7 @@ body {
 .article {
   background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
   margin-left: auto;
+  font-family: 'Alliance';
 }
 
 .article a {
