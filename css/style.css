@@ -19,7 +19,7 @@ body {
 .topnav {
   overflow: hidden;
   text-align: center;
-  font-family: 'Arvo';
+  font-family: 'Arvo', serif;
 }
 
 /* CSS for hamburger icon */
@@ -169,5 +169,12 @@ body {
     height: 30%;
     max-width: 100%;
     border-radius: 50%;
+  }
+
+  .home-block {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    display: block;
   }
 }
