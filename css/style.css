@@ -123,6 +123,7 @@ body {
 .am-img {
   width: 10%;
   height: 10%;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
@@ -168,7 +169,6 @@ body {
     width: 30%;
     height: 30%;
     max-width: 100%;
-    border-radius: 50%;
   }
 
   .home-block {
