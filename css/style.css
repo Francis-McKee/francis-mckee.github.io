@@ -56,7 +56,7 @@ body {
 }
 
 .article a {
-  color: #0B2265;
+  color: #9C8B7E;
   text-decoration: none;
 }
 
@@ -81,22 +81,27 @@ body {
   text-decoration: none;
 }
 
-.block {
+.project-block {
   margin: auto;
   margin-top: 10px;
   width: 60%;
   display: block;
+  background-color: #9C8B7E;
   border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: #9C8B7E;
   border-radius: 15px;
 }
 
-.block p {
+.project-block p {
   text-align: center;
   width: 100%; /* set to fill 100% of container class block */
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.project-block a {
+  color: white;
 }
 
 .home-block {
