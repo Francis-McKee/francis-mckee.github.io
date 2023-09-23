@@ -1,6 +1,5 @@
 body {
   font-size: 16px;
-  font-family: 'Alliance', serif;
   box-sizing: border-box; /* contains in parent */
 }
 
@@ -20,7 +19,7 @@ body {
 .topnav {
   overflow: hidden;
   text-align: center;
-  font-family: 'Cotford', serif;
+  font-family: 'Quicksand', serif;
 }
 
 /* CSS for hamburger icon */
