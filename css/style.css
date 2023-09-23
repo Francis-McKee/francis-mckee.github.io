@@ -1,5 +1,6 @@
 body {
-  font-size: 16px; /* need to add font type */
+  font-size: 16px;
+  font-family: 'Alliance', serif;
   box-sizing: border-box; /* contains in parent */
 }
 
@@ -19,7 +20,7 @@ body {
 .topnav {
   overflow: hidden;
   text-align: center;
-  font-family: 'Cotford';
+  font-family: 'Cotford', serif;
 }
 
 /* CSS for hamburger icon */
@@ -53,7 +54,6 @@ body {
 .article {
   background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
   margin-left: auto;
-  font-family: 'Alliance';
 }
 
 .article a {
