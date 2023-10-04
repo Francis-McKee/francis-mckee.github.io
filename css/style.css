@@ -132,8 +132,8 @@ body {
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
-  .block {
-    width: 90%;
+  .project-block {
+    width: 80%;
   }
 
   .text {
