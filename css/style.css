@@ -131,7 +131,7 @@ body {
   border-radius: 50%;
 }
 
-button {
+.home-block a button {
   width: 150px;
   height: 75px;
   font-size: 16px;
