@@ -132,8 +132,8 @@ body {
 }
 
 a button {
-  width: 7.5%;
-  height: 3%;
+  width: 100px;
+  height: 25px;
   font-size: 16px;
   background-color: #9C8B7E;
 }
