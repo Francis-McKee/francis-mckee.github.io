@@ -76,10 +76,13 @@ body {
   color: black;
 }
 
+.footer ul { 
+  list-style: none; /* removes bullet points from footer links */
+}
+
 .footer a {
   color: white;
   text-decoration: none;
-  list-style: none;
 }
 
 .project-block {
