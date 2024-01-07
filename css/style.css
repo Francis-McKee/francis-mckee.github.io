@@ -69,7 +69,6 @@ body {
   height: 5%;
   text-align: center;
   text-decoration: none;
-  list-style: none;
   padding: 10px;
   font-size: 16px;
   clear: both;
@@ -80,6 +79,7 @@ body {
 .footer a {
   color: white;
   text-decoration: none;
+  list-style: none;
 }
 
 .project-block {
