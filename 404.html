@@ -3,25 +3,32 @@ permalink: /404.html
 layout: default
 ---
 <style>
-    .ascii{
-        text-align: center;
+    .ascii {
+        width: 50%;
+        margin: auto;
+    }
+
+    @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+        .ascii {
+            display: none; /* Hide the ASCII art on smaller screens */
+        }
     }
 </style>
 <h1> Whoops, this page does not exist! </h1>
 <br>
-<div class="ascii">
-    <p> EEEEEEEEEEEEE   RRRRRRRRRR      RRRRRRRRRR      OOOOOOOOOO      RRRRRRRRRR    </p>
-    <p> EEEEEEEEEEEEE   RRRRRRRRRR      RRRRRRRRRR      OOOOOOOOOO      RRRRRRRRRR    </p>
-    <p> EEE             RRR       RRR   RRR       RRR   OOO       OOO   RRR       RRR </p>
-    <p> EEE             RRR       RRR   RRR       RRR   OOO       OOO   RRR       RRR </p>
-    <p> EEE             RRR       RRR   RRR       RRR   OOO       OOO   RRR       RRR </p>
-    <p> EEEEEEEE        RRRRRRRRRRRRR   RRRRRRRRRRRRR   OOO       OOO   RRRRRRRRRRRRR </p>
-    <p> EEEEEEEE        RRRRRRRRRRRRR   RRRRRRRRRRRRR   OOO       OOO   RRRRRRRRRRRRR </p>
-    <p> EEE             RRR  RRR        RRR  RRR        OOO       OOO   RRR  RRR      </p>
-    <p> EEE             RRR  RRRRR      RRR  RRRRR      OOO       OOO   RRR  RRRRR    </p>
-    <p> EEE             RRR     RR      RRR     RR      OOO       OOO   RRR     RR    </p>
-    <p> EEEEEEEEEEEEE   RRR       RRR   RRR       RRR      OOOOOOOOOO   RRR       RRR </p>
-    <p> EEEEEEEEEEEEE   RRR       RRR   RRR       RRR      OOOOOOOOOO   RRR       RRR </p>
+<div class="ascii" aria-hidden="true" role="presentation"> <!-- using aria-hidden and role here for users using assistive technologies -->
+    <p> EEEEEEEEEEEEE&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOOOOOOOOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp; </p>
+    <p> EEEEEEEEEEEEE&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOOOOOOOOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRR&nbsp;&nbsp;&nbsp; </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR </p>
+    <p> EEEEEEEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR </p>
+    <p> EEEEEEEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRRRRRRRRRRRR </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRRRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;RRRRR&nbsp;&nbsp;&nbsp; </p>
+    <p> EEE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RR&nbsp;&nbsp;&nbsp; </p>
+    <p> EEEEEEEEEEEEE&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOOOOOOOOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR </p>
+    <p> EEEEEEEEEEEEE&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OOOOOOOOOO&nbsp;&nbsp;&nbsp;RRR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RRR </p>
 </div>
 <br>
 <p> <b> Sorry, the page you requested could not be found. </b> </p>
