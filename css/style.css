@@ -133,14 +133,13 @@ body {
 
 .home-block a button {
   width: 150px;
-  height: 75px;
   background-color: #555;
   color: white;
   border: none;
   padding: 12px 20px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16 px;
+  font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
