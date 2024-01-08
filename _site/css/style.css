@@ -64,15 +64,34 @@ body {
   text-align: center;
 }
 
+/* Add the provided CSS here */
 .footer {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space items evenly across the container */
-  align-items: center; /* Center items vertically */
-  background-color: #9C8B7E; /* Set background color for the footer */
-  padding: 20px; /* Add padding for better spacing */
+  display: flex;
+  flex-wrap: wrap; /* wrap to the next line if they dont fit on the current one */
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9C8B7E;
+  padding: 20px;
 }
 
-/* Remove bullet points and reset padding/margin for the unordered list */
+.footer .nav,
+.footer .icons,
+.footer .info {
+  flex: 1; /* equal spacing */
+}
+
+.footer .nav {
+  text-align: left;
+}
+
+.footer .icons {
+  text-align: center;
+}
+
+.footer .info {
+  text-align: right;
+}
+
 .footer ul {
   list-style: none;
   padding: 0;
@@ -80,28 +99,22 @@ body {
 }
 
 .footer ul li {
-  display: inline-block; /* Display list items inline */
-  margin-right: 15px; /* Add margin between list items */
+  display: inline-block;
+  margin-right: 15px;
 }
 
-/* Reset margin for paragraphs within the footer */
 .footer p {
   margin: 0;
-  display: flex; /* center the icons vertically */
-  align-items: center; /* center items vertically */
 }
 
-/* Style links in the footer */
 .footer a {
-  text-decoration: none; /* Remove default underline for links */
-  color: white; /* Set text color for links */
+  text-decoration: none;
+  color: black;
 }
 
-/* Add margin between icon and text within paragraphs */
 .footer i {
   margin-right: 10px;
 }
-
 
 .project-block {
   margin: auto;
@@ -130,6 +143,7 @@ body {
   margin: auto;
   margin-top: 10px;
   width: 60%;
+  max-width: 600px; /* max width for larger screens */
   display: block;
 }
 
