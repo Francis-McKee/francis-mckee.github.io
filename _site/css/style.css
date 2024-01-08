@@ -13,12 +13,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
+  background-color: #D5D2CD;
 }
 
 .topnav {
-  background-color: #0B2265;
   overflow: hidden;
   text-align: center;
+  font-family: 'Quicksand', serif;
 }
 
 /* CSS for hamburger icon */
@@ -29,12 +30,12 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
   width: 8em;
+  color: black;
 }
 
 .topnav a:last-child {
@@ -44,18 +45,18 @@ body {
 
 /* Change the color of topnav links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: #0B2265;
+  background-color: #9C8B7E;
+  color: white;
   font-size: 18px;
 }
 
 .article {
-  background-color: white;
+  background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
   margin-left: auto;
 }
 
 .article a {
-  color: #0B2265;
+  color: #9C8B7E;
   text-decoration: none;
 }
 
@@ -64,36 +65,84 @@ body {
 }
 
 .footer {
-  width: 100%;
-  height: 5%;
-  text-align: center;
-  background-color: #0B2265;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  font-size: 16px;
-  clear: both;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly across the container */
+  align-items: center; /* Center items vertically */
+  background-color: #9C8B7E; /* Set background color for the footer */
+  padding: 20px; /* Add padding for better spacing */
 }
 
+/* Remove bullet points and reset padding/margin for the unordered list */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 15px; /* Add margin between list items */
+}
+
+/* Reset margin for paragraphs within the footer */
+.footer p {
+  margin: 0;
+  display: flex; /* center the icons vertically */
+  align-items: center; /* center items vertically */
+}
+
+/* Style links in the footer */
 .footer a {
-  color: white;
-  text-decoration: none;
+  text-decoration: none; /* Remove default underline for links */
+  color: white; /* Set text color for links */
 }
 
-.block {
+/* Add margin between icon and text within paragraphs */
+.footer i {
+  margin-right: 10px;
+}
+
+
+.project-block {
   margin: auto;
   margin-top: 10px;
   width: 60%;
   display: block;
+  background-color: #9C8B7E;
   border-style: solid;
   border-width: 2px;
-  border-color: lightgray;
+  border-color: #9C8B7E;
   border-radius: 15px;
 }
 
-.block p {
+.project-block p {
   text-align: center;
   width: 100%; /* set to fill 100% of container class block */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-block a {
+  color: white;
+}
+
+.home-block {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  display: block;
+}
+
+.home-block p {
+  text-align: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home-block ul {
+  text-align: left;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -101,23 +150,29 @@ body {
 .am-img {
   width: 10%;
   height: 10%;
+  border-radius: 50%;
+}
+
+.home-block a button {
+  width: 150px;
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.home-block a button:hover {
+  background-color: #9C8B7E;
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
-  .block {
-    width: 90%;
+  .project-block {
+    width: 80%;
   }
-
-  /* Commented out while editing
-
-  .topnav a,
-  .topnav a:last-child {
-    float: none;
-    display: block;
-    width: 100%;
-  }
-
-  */
 
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
     display: none;
@@ -128,11 +183,11 @@ body {
     display: block;
     cursor: pointer;
     padding: 14px 16px;
+    color: black;
   }
 
   .topnav.responsive a.icon {
-    background-color: #ddd; /* sets the background color to contrast rest of links so users know its active */
-    color: #0B2265; /* sets contrast from background color */
+    background-color: #9C8B7E; /* sets the background color to contrast rest of links so users know its active */
     position: absolute;
     top: 0;
     right: 0;
@@ -153,5 +208,12 @@ body {
     width: 30%;
     height: 30%;
     max-width: 100%;
+  }
+
+  .home-block {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    display: block;
   }
 }
