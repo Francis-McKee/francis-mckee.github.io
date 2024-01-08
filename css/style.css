@@ -87,6 +87,8 @@ body {
 /* Reset margin for paragraphs within the footer */
 .footer p {
   margin: 0;
+  display: flex; /* center the icons vertically */
+  align-items: center; /* center items vertically */
 }
 
 /* Style links in the footer */
