@@ -5,19 +5,19 @@
     margin: 20px; /* Adjust the margin as needed */
   }
   
-  .download a {
+.download a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #555; /* Adjust the background color */
     color: #fff; /* Adjust the text color */
     text-decoration: none;
     border-radius: 5px;
-  }
+}
   
-  .download a i {
+.download a i {
     margin-right: 5px;
-  }
+}
   
-  .download a:hover {
+.download a:hover {
     background-color: #9C8B7E;
-  }
+}
