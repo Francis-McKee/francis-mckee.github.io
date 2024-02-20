@@ -1,24 +1,48 @@
 /* Projects.html CSS */
 
-.project-block {
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+
     margin: auto;
     margin-top: 10px;
     width: 60%;
-    display: block;
+    
+    color: black;
     background-color: #9C8B7E;
     border-style: solid;
     border-width: 2px;
     border-color: #9C8B7E;
     border-radius: 15px;
-  }
-  
-  .project-block p {
+}
+
+section p {
     text-align: center;
     width: 100%; /* set to fill 100% of container class block */
     padding-left: 10px;
     padding-right: 10px;
-  }
-  
-  .project-block a {
-    color: white;
-  }
+}
+
+section a {
+    color: white !important; /* without important links go invisible? */
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
