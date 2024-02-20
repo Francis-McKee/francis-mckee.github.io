@@ -1,0 +1,49 @@
+/* Index.html CSS */
+
+.home-block {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    max-width: 600px; /* max width for larger screens */
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .home-block p {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .home-block ul {
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .am-img { /* index.html image */
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+  
+  .home-block a button { /* 'Request a Quote' button */
+    width: 150px;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-block a button:hover {
+    background-color: #9C8B7E;
+  }
+  

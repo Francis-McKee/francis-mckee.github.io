@@ -61,6 +61,7 @@ body {
 
 .header {
   text-align: center;
+  align-items: center;
 }
 
 /* Footer CSS */
@@ -113,100 +114,6 @@ body {
 
 .footer i {
   margin-right: 10px;
-}
-
-/* Projects.html CSS */
-.project-block {
-  margin: auto;
-  margin-top: 10px;
-  width: 60%;
-  display: block;
-  background-color: #9C8B7E;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #9C8B7E;
-  border-radius: 15px;
-}
-
-.project-block p {
-  text-align: center;
-  width: 100%; /* set to fill 100% of container class block */
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.project-block a {
-  color: white;
-}
-
-/* Index.html CSS */
-.home-block {
-  margin: auto;
-  margin-top: 10px;
-  width: 60%;
-  max-width: 600px; /* max width for larger screens */
-  display: block;
-}
-
-.home-block p {
-  text-align: center;
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.home-block ul {
-  text-align: left;
-  width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.am-img { /* index.html image */
-  width: 15%;
-  height: 15%;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.home-block a button { /* 'Request a Quote' button */
-  width: 150px;
-  background-color: #555;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.home-block a button:hover {
-  background-color: #9C8B7E;
-}
-
-/* Resume.html CSS */
-.download {
-  text-align: center;
-  margin: 20px; /* Adjust the margin as needed */
-}
-
-.download a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #555; /* Adjust the background color */
-  color: #fff; /* Adjust the text color */
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.download a i {
-  margin-right: 5px;
-}
-
-.download a:hover {
-  background-color: #9C8B7E;
 }
 
 
