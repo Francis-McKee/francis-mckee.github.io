@@ -29,8 +29,10 @@
     width: 15%;
     height: 15%;
     border-radius: 50%;
+    /*
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    */
 }
 
 .home-block a button { /* 'Request a Quote' button */
