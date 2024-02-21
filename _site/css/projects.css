@@ -42,6 +42,7 @@ section a:hover {
     background-color: #D5D2CD;
     color: #555;
 }
+
 .hidden {
     opacity: 0;
     filter: blur(5px);

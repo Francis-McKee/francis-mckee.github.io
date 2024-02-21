@@ -1,0 +1,6 @@
+/* /projects/blog.html CSS */
+
+.article a { /* references default layout 'main' with class 'article' */
+    text-decoration: none;
+    color: #9C8B7E;
+}

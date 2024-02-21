@@ -50,6 +50,7 @@ body {
   font-size: 18px;
 }
 
+/* references default layout 'main' with class 'article' */
 .article {
   background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
   margin-left: auto;

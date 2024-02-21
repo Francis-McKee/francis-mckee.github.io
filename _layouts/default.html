@@ -7,36 +7,35 @@
     <link href="https://languages.abranhe.com/logos.css" rel="stylesheet"> <!-- programming langauge icons -->
     <script src="https://kit.fontawesome.com/84cb529d33.js" crossorigin="anonymous"></script> <!-- FontAwesome icon library -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet"> <!-- Quicksand Bold 700 -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ '/images/favicon/apple-touch-icon.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ '/images/favicon/favicon-32x32.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{ '/images/favicon/favicon-16x16.png' | relative_url }}"
+    />
+
   </head>
   <body>
     <div class="wrapper">
         {% include navigation.html %}
         <br>
-        <div class="article">
+        <main class="article" aria-label="Content">
             {{ content }}
-        </div>
+        </main>
         <br>
-        <div class="footer">
-          <div class="nav">
-            <ul>
-              <li> <a href="/index.html"> Home </a> </li>
-              <li> <a href="/resume.html"> Resume </a> </li>
-              <li> <a href="/projects.html"> Projects </a> </li>
-              <li> <a href="/projects/blog.html"> Blog </a> </li>
-              <li> <a href="/contact.html"> Contact </a> </li>
-            </ul>
-          </div>
-          <div class="icons">
-            <p>
-              <a href="https://github.com/Francis-McKee" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl"></i></a>
-              <a href="https://www.linkedin.com/in/francis-mckee-7338311a6/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-            </p>
-          </div>
-          <div class="info">
-            <p> &copy; 2022-2024 Francis McKee </p>
-            <p> <a href="/sitemap.xml"> Sitemap </a> </p>
-          </div>
-        </div>
+        {% include footer.html %}
     </div>
   </body>
 </html>
