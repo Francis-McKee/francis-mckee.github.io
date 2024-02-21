@@ -105,8 +105,14 @@ body {
 }
 
 .footer a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect */
+.footer a:hover {
+  color: #D5D2CD; /* Change color on hover */
 }
 
 .footer i {
