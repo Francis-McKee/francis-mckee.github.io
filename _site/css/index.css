@@ -16,15 +16,6 @@
     padding-right: 10px;
 }
 
-/*
-.home-block ul {
-    text-align: left;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-*/
-
 .am-img { /* about me image */
     width: 15%;
     height: 15%;
@@ -33,6 +24,16 @@
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     */
+}
+
+/* LinkedIn Icon */
+.home-block a i {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.home-block a i:hover {
+    color: #9C8B7E;
 }
 
 .home-block a button { /* 'Request a Quote' button */

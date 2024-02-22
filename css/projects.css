@@ -1,8 +1,14 @@
 /* Projects.html CSS */
 
+/* GitHub and Itch.io Icons */
 .header a {
-    color: #9C8B7E;
+    color: #555;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #9C8B7E;
 }
 
 section {
