@@ -1,0 +1,12 @@
+/* Licensing.html CSS */
+
+main a {
+    text-decoration: underline;
+    color: black;
+    transition: color 0.3s;
+}
+
+/* Hover effect */
+main a:hover {
+    color: #9C8B7E; /* Change color on hover */
+}
