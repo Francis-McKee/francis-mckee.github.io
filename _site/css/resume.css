@@ -21,3 +21,12 @@
 .download a:hover {
     background-color: #9C8B7E;
 }
+
+a {
+    text-decoration: underline;
+    color: #555;
+}
+
+a:hover {
+    color: #9C8B7E;
+}
