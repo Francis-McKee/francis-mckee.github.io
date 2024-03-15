@@ -82,3 +82,20 @@
 .programming-block img:hover + .hidden-text{
     display: block;
 }
+
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+
+    .am-img {
+        width: 30%;
+        height: 30%;
+        max-width: 100%;
+    }
+    
+    .home-block {
+        margin: auto;
+        margin-top: 10px;
+        width: 80%;
+        display: block;
+    }
+}

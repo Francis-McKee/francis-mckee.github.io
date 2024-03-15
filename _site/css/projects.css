@@ -72,3 +72,10 @@ section img {
         transition: none;
     }
 }
+
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+    .project-block {
+      width: 80%;
+    }
+}

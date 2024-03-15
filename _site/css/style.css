@@ -126,9 +126,6 @@ body {
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
-  .project-block {
-    width: 80%;
-  }
 
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
     display: none;
@@ -160,16 +157,7 @@ body {
     text-align: center;
   }
 
-  .am-img {
-    width: 30%;
-    height: 30%;
-    max-width: 100%;
-  }
-
-  .home-block {
-    margin: auto;
-    margin-top: 10px;
-    width: 80%;
-    display: block;
+  .footer .icons { /* Footer icons now stack in a column instead of being smushed together */
+    flex-direction: column;
   }
 }
