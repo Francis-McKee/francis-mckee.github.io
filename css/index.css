@@ -79,7 +79,7 @@
     display: none;
 }
 
-.programming-block img:hover + .hidden-text{
+.programming-block img:hover + .hidden-text {
     display: block;
 }
 
@@ -97,5 +97,9 @@
         margin-top: 10px;
         width: 80%;
         display: block;
+    }
+
+    .programming-block {
+
     }
 }

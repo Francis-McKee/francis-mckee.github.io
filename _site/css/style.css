@@ -146,7 +146,7 @@ body {
     right: 0;
   }
 
-  .topnav.responsive a { /* topnav links including icon after icon pressed*/
+  .topnav.responsive a { /* topnav links including icon after icon pressed */
     float: none;
     display: block;
     text-align: left;
@@ -158,6 +158,8 @@ body {
   }
 
   .footer .icons { /* Footer icons now stack in a column instead of being smushed together */
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
