@@ -164,7 +164,7 @@ body {
     margin: 10px;
   }
 
-  .footer i {
-    margin-top: 10px;
+  .footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
+    display: none;
   }
 }
