@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+comments: true
 ---
 
 <meta name="keywords" content="Contact, Email">
@@ -94,3 +95,20 @@ title: Contact
   <button type="submit">Send</button>
 </form>
 <br>
+
+{% if page.comments %}
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = "{{ page.url | absolute_url }}";
+            this.page.identifier = "{{ page.id }}";
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://your-disqus-shortname.disqus.com/embed.js'; // Replace 'your-disqus-shortname' with your actual Disqus shortname
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
