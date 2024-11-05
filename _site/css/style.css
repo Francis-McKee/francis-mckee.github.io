@@ -125,6 +125,13 @@ body {
   width: 100%;
 }
 
+.comments-container {
+  max-width: 800px;
+  margin: 0 auto; /* centers the container */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
 
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
@@ -166,5 +173,10 @@ body {
 
   .footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
     display: none;
+  }
+
+  .comments-container {
+    max-width: 100%; /* makes it full width on smaller screens */
+    padding: 10px;
   }
 }
