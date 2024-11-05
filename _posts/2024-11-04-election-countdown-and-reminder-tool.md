@@ -6,7 +6,6 @@ date: 2024-11-04
 comments: true
 ---
 
-# Announcing my new Election Countdown and Reminder Tool
 With election season *right* around the corner, I'm excited to share a new tool I developed to help everyone stay prepared and informed. Whether you're already registered or still figuring out voting details, my **Election Countdown and Reminder Tool** has you covered!  
 
 ## About the Tool:
