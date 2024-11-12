@@ -15,5 +15,5 @@ Today would also be a good day to take advantage of the dip and buy [**$TSLY**](
 
 ## Additional Resources
 - [Small caps could outperform by more than 100% in the next few days, says Fundstrat's Tom Lee](https://www.youtube.com/watch?v=-Q1W8TubiDY) - CNBC Television
-- [Small caps an 'opportunity' under Trump, expert says](https://www.youtube.com/watch?v=h0wmKvkFhIg)
-- [AMZN, ASML, Small Caps: Names to Watch Into 2025](https://www.youtube.com/watch?v=XHQtcSGMEpQ)
+- [Small caps an 'opportunity' under Trump, expert says](https://www.youtube.com/watch?v=h0wmKvkFhIg) - Yahoo Finance
+- [AMZN, ASML, Small Caps: Names to Watch Into 2025](https://www.youtube.com/watch?v=XHQtcSGMEpQ) - Schwab Network
