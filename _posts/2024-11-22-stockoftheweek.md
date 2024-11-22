@@ -6,7 +6,7 @@ date: 2024-11-22
 comments: true
 ---
 
-Welcome, this is the third Stock of the Week post, for the week of November 17, 2024. In my Stock of the Week posts, I discuss a security (stock or ETF) that I am currently buying or selling, and will explain my rationale. These are trades I am personally making, so you will either make money with me or lose money with me by entering these trades (ideally the former). [Financial Disclaimer](https://fnmckee.com/categories/investing.html)
+This is the third Stock of the Week post, for the week of November 17, 2024. In my Stock of the Week posts, I discuss a security (stock or ETF) that I am currently buying or selling, and will explain my rationale. These are trades I am personally making, so you will either make money with me or lose money with me by entering these trades (ideally the former). [Financial Disclaimer](https://fnmckee.com/categories/investing.html)
 
 ## Stock of the Week
 The stock of the week this week is [**$ULTY**](https://www.nasdaq.com/market-activity/etf/ulty), the *YieldMax Ultra Option Income Strategy ETF*. ULTY is an actively managed ETF that seeks to generate monthly income from a portfolio of covered call strategies on multiple underlying securities (typically 15-30), according to its page on the [YieldMax website](https://www.yieldmaxetfs.com/ulty/). 
