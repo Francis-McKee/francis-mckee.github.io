@@ -4,8 +4,8 @@ category: investing
 title: "Stock of the Week"
 date: 2024-11-12
 comments: true
-
 ---
+
 Welcome, this is the second Stock of the Week post, for the week of November 10, 2024. In my Stock of the Week posts, I discuss a security (stock or ETF) that I am currently buying or selling, and will explain my rationale. These are trades I am personally making, so you will either make money with me or lose money with me by entering these trades (ideally the former). [Financial Disclaimer](https://fnmckee.com/categories/investing.html)
 
 ## Stock of the Week
