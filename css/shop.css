@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box; /* contains in parent */
+}
+  
+* {
+    box-sizing: inherit; /* inherits "box-sizing: border-box" above for all elements */
+}
+  
+.wrapper {
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+/* clearfix solution to ensure the footer isnt included as a project block */
+.wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+  
+.noBullet {
+    list-style-type: none;
+}
+  
+.article {
+    margin-left: auto;
+}
+  
+.article a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+  
+/* Product Block CSS */
+  
+li.product {
+    display: block;
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+  
+li > img {
+    position: relative;
+    width: 100%; /* set to fill 100% of container class block */
+}
+  
+li.product p {
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* set to fill 100% of container class block */
+}
