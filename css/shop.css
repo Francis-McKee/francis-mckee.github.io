@@ -56,7 +56,10 @@ li > img {
 }
   
 li.product p {
-    padding: 10px;
     text-align: center;
     width: 100%; /* set to fill 100% of container class block */
+}
+
+li.product p.description {
+    color: #555;
 }

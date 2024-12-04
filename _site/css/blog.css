@@ -5,6 +5,33 @@
     color: #9C8B7E;
 }
 
+.article a:hover {
+    color: #555;
+}
+
 h1 {
     text-align: center;
+}
+
+.category-links {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.category-links li {
+    display: inline-block; /* makes list items appear inline */
+    margin: 0 10px;
+}
+
+.category-links a {
+    color: white;
+    background-color: #555;
+    padding: 6px 10px;
+}
+
+.category-links a:hover {
+    color: #555;
+    background-color: #9C8B7E
 }
