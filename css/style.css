@@ -6,6 +6,11 @@ body {
 
 * {
   box-sizing: inherit; /* inherits "box-sizing: border-box" above for all elements */
+  
+  /* disable select */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .wrapper {
