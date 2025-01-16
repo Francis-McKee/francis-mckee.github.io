@@ -85,105 +85,42 @@
 </div>
         <br>
         <main class="article" aria-label="Content">
-            <meta name="keywords" content="Portfolio, Website, Student, Computer Science, Programming">
-<meta name="description" content="This is the portfolio website of Francis McKee, a college student studying for a Bachelor's Degree in Computer Science online via Western Governors University.">
+            <link rel="stylesheet" href="/css/login.css" type="text/css">
 
-<link rel="stylesheet" href="/css/index.css" type="text/css">
+<script defer src="/js/login.js"></script> <!-- 'defer' means script runs after all HTML loads -->
 
-<div class="header">
-  <img src="/images/about_me1.jpeg" class="am-img">
-</div>
-
-<div class="home-block">
-  <h1> Hi, my name is Francis McKee. </h1>
-  <p> <i> Web Developer, Student, Investor </i> </p>
-  <a href="https://www.linkedin.com/in/francis-mckee-7338311a6/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-</div>
-    
-<hr>
-
-<div class="home-block">
-  <p> I am a current college student studying Computer Science online at Western Governors University. I am looking for a position that will enable me to utilize my programming, marketing, and design skills as a web developer. In 2019, I developed a website for a local truck and auto repair business, and since then I have been learning and improving my skills through my collegiate studies and personal research. I have studied multiple programming languages that will allow me to utilize different techniques to fulfill possible needs of the client. I'd love the opportunity to put my education and experience to work for you or your company. </p>
-  <a href="/contact.html" target="_blank" rel="noopener noreferrer"> 
-    <button> Contact Me </button>
-  </a>
-</div>
-    
-<hr>
-    
-<div class="home-block">
-  <h2> Tech Stack: </h2>
-
-  <h3> Applications: </h3>
-  <p> Google Suite, Microsoft Office, Visual Studio, GitHub, Replit, Itch.io, Unity, Photoshop, Google Drawings, Simple Different, Screaming Frog SEO, Trello </p>
-
-  <h3> Operating Systems: </h3>
-  <p> Windows, iOS, Mac OS X </p>
-
-  <h3> Programming: </h3>
-  <!-- img icons from iconduck.com -->
-  <div class="programming-block">
-    <img src="/images/icons/html.png"/>
-    <div class="hidden-text">
-      <p> HTML </p>
+<!-- Login Form -->
+<form id="login-form" style="display: block;" autocomplete="off">
+    <h1> Login </h1>
+    <div class="form-group">
+        <label for="login-email"> Email: </label>
+        <input type="email" id="login-email" placeholder="Enter your email" required>
     </div>
-  </div>
-
-  <div class="programming-block">
-    <img src="/images/icons/css.png"/>
-    <div class="hidden-text">
-      <p> CSS </p>
+    <div class="form-group">
+        <label for="login-password"> Password: </label>
+        <input type="password" id="login-password" placeholder="Enter your password" required>
+        <i id="login-password-toggle" class="fa-solid fa-eye password-toggle"></i>
     </div>
-  </div>
+    <button type="submit"> Login </button>
+    <a href="#" id="show-signup" class="toggle-link"> Don't have an account? Sign up here! </a>
+</form>
 
-  <div class="programming-block">
-    <img src="/images/icons/javascript.png"/>
-    <div class="hidden-text">
-      <p> JavaScript </p>
+<!-- Sign-Up Form -->
+<form id="signup-form" style="display: none;" autocomplete="off">
+    <h1> Sign Up </h1>
+    <div class="form-group">
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" placeholder="Enter your email" required>
     </div>
-  </div>
-
-  <div class="programming-block">
-    <img src="/images/icons/jekyll.png"/>
-    <div class="hidden-text">
-      <p> Jekyll </p>
+    <div class="form-group">
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" placeholder="Enter your password" required>
+        <i id="signup-password-toggle" class="fa-solid fa-eye password-toggle"></i>
     </div>
-  </div>
+    <button type="submit">Sign Up</button>
+    <a href="#" id="show-login" class="toggle-link">Already have an account? Login here!</a>
+</form>
 
-  <div class="programming-block">
-    <img src="/images/icons/git.png"/>
-    <div class="hidden-text">
-      <p> Git </p>
-    </div>
-  </div>
-
-  <div class="programming-block">
-    <img src="/images/icons/csharp.png"/>
-    <div class="hidden-text">
-      <p> C# </p>
-    </div>
-  </div>
-
-  <div class="programming-block">
-    <img src="/images/icons/cpp.png"/>
-    <div class="hidden-text">
-      <p> C++ </p>
-    </div>
-  </div>
-</div>
-
-<hr>
-
-<div class="home-block">
-  <h2> Testimonials: </h2>
-
-  <div class="testimonial-block">
-    <p> <strong> <i> My Ground Accountants </i> </strong> </p>
-    <p> 
-      <strong>"</strong> Francis demonstrated exceptional professionalism by meeting with me to thoroughly understand my website needs. He then efficiently created my website that perfectly met my expectations in record time. Highly recommended for his expertise and efficiency! <strong>"</strong>
-    </p>
-  </div>
-</div>
         </main>
         <br>
         <div class="footer">
