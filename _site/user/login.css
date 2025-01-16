@@ -60,19 +60,20 @@ input[type="password"]::placeholder {
     color: #999;
 }
 
-.toggle-link {
+form a {
     display: block;
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 16px;
     color: #9C8B7E;
     text-decoration: none;
-  }
-
-.toggle-link:hover {
-    text-decoration: underline;
 }
 
-  .password-toggle {
+form a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+.password-toggle {
     position: absolute;
     right: 10px;
     top: 50%; /* Align to the middle of the input field */
@@ -80,9 +81,9 @@ input[type="password"]::placeholder {
     cursor: pointer;
     font-size: 16px;
     color: #555;
-  }
+}
 
-  .form-group {
+.form-group {
     position: relative; /* Needed to position the eye icon correctly */
     margin-bottom: 20px;
-  }
+}

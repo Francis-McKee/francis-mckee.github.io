@@ -3,7 +3,7 @@
   <head>
 
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Investing</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 
     <!-- Google tag (gtag.js) -->
@@ -91,97 +91,25 @@
 </div>
         <br>
         <main class="article" aria-label="Content">
-            <head>
+            <link rel="stylesheet" href="/user/signup.css" type="text/css">
 
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JPZKWC3VE2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<script defer src="/user/signup.js"></script> <!-- 'defer' means script runs after all HTML loads -->
 
-  gtag('config', 'G-JPZKWC3VE2');
-</script>
-
-<!-- Google Adsense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2198575580978274"
- crossorigin="anonymous">
-</script>
-
-<!-- FontAwesome icon library -->
-<script src="https://kit.fontawesome.com/84cb529d33.js" crossorigin="anonymous"></script>
-
-<!-- Quicksand Bold 700 -->
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-
-<!-- Firebase fnmckee-authentication -->
-<script type="module">
-  // Import the necessary Firebase modules
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
-  import { getAuth } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyBBTiBF5JvaVgEl3R19KNN1RaKaozebiqk",
-    authDomain: "fnmckee-authentication.firebaseapp.com",
-    projectId: "fnmckee-authentication",
-    storageBucket: "fnmckee-authentication.firebasestorage.app",
-    messagingSenderId: "66512560822",
-    appId: "1:66512560822:web:09f3514888d4e00f0abc17",
-    measurementId: "G-KTMMERNNHN"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
-  // Initialize Firebase Authentication
-  const auth = getAuth(app);
-
-  // Export auth for use in other scripts
-  window.firebaseAuth = auth;
-</script>
- 
-
-  <title>Investing</title>
-
-</head>
-
-<h1>Investing</h1>
-<h2></h2>
-
-<p>This is a category created for all posts related to investing and the stock market. Posts in this category are posted weekly with my ‘Stock of the Week’ picks and other general thoughts/ points of interest.</p>
-
-<h3 id="financial-disclaimer">Financial Disclaimer:</h3>
-<p>The information and tools provided on their website ‘<a href="[https://fnmckee.com]">https://fnmckee.com</a>’, including but not limited to this blog, is for educational and informational purposes only. It should not be construed as financial, investment, or legal advice.</p>
-
-<p>Investing in the stock market and using margin involves inherent risks, and individuals should conduct thorough research and seek the advice of a qualified financial advisor before making any investment decisions.</p>
-
-<p>The creator of this blog does not guarantee the accuracy, completeness, or reliability of the information provided. They shall not be held liable for any losses or damages arising from the use of the information or tools provided on their website.</p>
-
-<p>Users are solely responsible for their investment decisions and should exercise caution and diligence when dealing with financial matters.</p>
-
-
-<h2>Posts</h2>
-<ul>
-  
-  
-    <li><a href="/investing/2024/12/19/stockoftheweek.html">Stock of the Week</a></li>
-  
-    <li><a href="/investing/2024/12/13/stockoftheweek.html">Stock of the Week</a></li>
-  
-    <li><a href="/investing/2024/12/04/stockoftheweek.html">Stock of the Week</a></li>
-  
-    <li><a href="/investing/2024/11/22/stockoftheweek.html">Stock of the Week</a></li>
-  
-    <li><a href="/investing/2024/11/12/stockoftheweek.html">Stock of the Week</a></li>
-  
-    <li><a href="/investing/2024/11/06/stockoftheweek.html">Stock of the Week</a></li>
-  
-</ul>
+<!-- Sign-Up Form -->
+<h1> Sign Up </h1>
+<form autocomplete="off">
+    <div class="form-group">
+        <label for="signup-email">Email:</label>
+        <input type="email" id="signup-email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" placeholder="Enter your password" required>
+        <i id="signup-password-toggle" class="fa-solid fa-eye password-toggle"></i>
+    </div>
+    <button type="submit">Sign Up</button>
+    <a href="/user/login.html"> Already have an account? Login here! </a>
+</form>
         </main>
         <br>
         <div class="footer">
