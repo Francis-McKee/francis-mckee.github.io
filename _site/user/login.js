@@ -26,23 +26,6 @@ function loginUser(event) {
     });
 }
 
-// Password visibility toggle
-function togglePasswordVisibility() {
-  const passwordInput = document.getElementById("login-password");
-  const toggleIcon = document.getElementById("toggle-login-password-visibility");
-
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text";
-    toggleIcon.classList.remove("fa-eye-slash");
-    toggleIcon.classList.add("fa-eye");
-  } else {
-    passwordInput.type = "password";
-    toggleIcon.classList.remove("fa-eye");
-    toggleIcon.classList.add("fa-eye-slash");
-  }
-}
-
 // Attach event listeners
 document.getElementById("login-form").addEventListener("submit", loginUser);
-document.getElementById("toggle-login-password-visibility").addEventListener("click", togglePasswordVisibility);
-
+document.getElementById("login-password-toggle").addEventListener("click", togglePasswordVisibility);

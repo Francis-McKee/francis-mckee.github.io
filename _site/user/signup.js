@@ -26,22 +26,6 @@ function signupUser(event) {
     });
 }
 
-// Password visibility toggle
-function togglePasswordVisibility() {
-  const passwordInput = document.getElementById("signup-password");
-  const toggleIcon = document.getElementById("toggle-signup-password-visibility");
-
-  if (passwordInput.type === "password") {
-    passwordInput.type = "text";
-    toggleIcon.classList.remove("fa-eye-slash");
-    toggleIcon.classList.add("fa-eye");
-  } else {
-    passwordInput.type = "password";
-    toggleIcon.classList.remove("fa-eye");
-    toggleIcon.classList.add("fa-eye-slash");
-  }
-}
-
 // Attach event listeners
 document.getElementById("signup-form").addEventListener("submit", signupUser);
 document.getElementById("toggle-signup-password-visibility").addEventListener("click", togglePasswordVisibility);

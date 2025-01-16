@@ -24,7 +24,6 @@ input[type="email"],
 input[type="password"] {
     width: 100%;
     padding: 12px;
-    padding-right: 40px; /* Space for the eye icon */
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
