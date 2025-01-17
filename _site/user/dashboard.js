@@ -1,5 +1,24 @@
-import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
-const auth = getAuth();
+// Firebase setup and initialization
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
+
+// Firebase configuration (use your own config here)
+const firebaseConfig = {
+  apiKey: "AIzaSyBBTiBF5JvaVgEl3R19KNN1RaKaozebiqk",
+  authDomain: "fnmckee-authentication.firebaseapp.com",
+  projectId: "fnmckee-authentication",
+  storageBucket: "fnmckee-authentication.firebasestorage.app",
+  messagingSenderId: "66512560822",
+  appId: "1:66512560822:web:09f3514888d4e00f0abc17",
+  measurementId: "G-KTMMERNNHN"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+// Initialize Firebase Authentication
+const auth = getAuth(app); // Pass the app to getAuth
+
 
 // Check if the user is logged in
 onAuthStateChanged(auth, (user) => {
