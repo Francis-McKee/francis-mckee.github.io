@@ -19,6 +19,19 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication
 const auth = getAuth(app);
 
+function displayMessage(elementId, message, isError = true) {
+  const messageContainer = document.getElementById(elementId);
+  messageContainer.textContent = message;
+  messageContainer.classList.remove("error", "success");
+  messageContainer.classList.add(isError ? "error" : "success");
+  messageContainer.style.display = "block";
+
+  // Hide message after 5 seconds
+  setTimeout(() => {
+    messageContainer.style.display = "none";
+  }, 5000);
+}
+
 // Handle sign-up
 function signupUser(event) {
   event.preventDefault();
@@ -28,7 +41,7 @@ function signupUser(event) {
   const confirmPassword = document.getElementById("confirm-password").value;
 
   if (password !== confirmPassword) {
-    alert("Passwords do not match. Please try again.");
+    displayMessage("signup-message", "Passwords do not match. Please try again.", true);
     return;
   }
 
@@ -38,12 +51,15 @@ function signupUser(event) {
       const user = userCredential.user;
       console.log("User signed up:", user);
 
-      // Redirect to a protected page (replace with your page)
+      // Redirect to a protected page
       window.location.href = "/user/dashboard.html";
     })
     .catch((error) => {
-      console.error("Sign-up error:", error.message);
-      alert("Error: " + error.message);
+      if (error.code === "auth/email-already-in-use") {
+        displayMessage("signup-message", "This email is already registered. Please log in or use a different email.", true);
+      } else {
+        displayMessage("signup-message", error.message, true);
+      }
     });
 }
 

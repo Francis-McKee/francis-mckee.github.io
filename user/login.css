@@ -86,3 +86,15 @@ form a:hover {
     position: relative; /* Needed to position the eye icon correctly */
     margin-bottom: 20px;
 }
+
+.message {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+    display: none; /* Hide initially */
+}

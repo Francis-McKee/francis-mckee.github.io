@@ -19,6 +19,19 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication
 const auth = getAuth(app);
 
+function displayMessage(elementId, message, isError = true) {
+  const messageContainer = document.getElementById(elementId);
+  messageContainer.textContent = message;
+  messageContainer.classList.remove("error", "success");
+  messageContainer.classList.add(isError ? "error" : "success");
+  messageContainer.style.display = "block";
+
+  // Hide message after 5 seconds
+  setTimeout(() => {
+    messageContainer.style.display = "none";
+  }, 5000);
+}
+
 // Handle login
 function loginUser(event) {
   event.preventDefault();
@@ -36,8 +49,31 @@ function loginUser(event) {
       window.location.href = "/user/dashboard.html";
     })
     .catch((error) => {
-      console.error("Login error:", error.message);
-      alert("Error: " + error.message);
+      console.log("Error Code:", error.code); // debugging line
+      console.log("Error Message:", error.message); // debugging line
+
+      // Map Firebase error codes to custom messages
+      let message;
+      switch (error.code) {
+        case "auth/user-not-found":
+          message = "No user found with this email address.";
+          break;
+        case "auth/wrong-password":
+          message = "Invalid password. Please try again.";
+          break;
+        case "auth/too-many-requests":
+          message = "Too many login attempts. Please try again later.";
+          break;
+        case "auth/invalid-email":
+          message = "The email address is not valid.";
+          break;
+        case "auth/invalid-credential":
+          message = "Invalid credentials. Please try logging in again.";
+          break;
+        default:
+          message = "An unexpected error occurred. Please try again.";
+      }
+      displayMessage("login-message", message, true);
     });
 }
 
@@ -51,14 +87,14 @@ document.getElementById("forgot-password-link").addEventListener("click", functi
     sendPasswordResetEmail(auth, email)
       .then(() => {
         // Email sent, notify the user
-        alert("Password reset email sent! Check your inbox.");
+        displayMessage("login-message", "Password reset email sent. Please check your inbox.", false);
       })
       .catch((error) => {
         // Handle errors here
-        alert("Error: " + error.message);
+        displayMessage("login-message", error.message, true);
       });
   } else {
-    alert("Please enter your email address.");
+    displayMessage("login-message", "Please enter your email address to reset your password.", true);
   }
 });
 
