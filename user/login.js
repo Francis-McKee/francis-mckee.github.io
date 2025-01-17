@@ -11,7 +11,7 @@ const firebaseConfig = {
 
 // Import Firebase libraries
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -40,6 +40,27 @@ function loginUser(event) {
       alert("Error: " + error.message);
     });
 }
+
+// Forgot Password functionality
+document.getElementById("forgot-password-link").addEventListener("click", function (event) {
+  event.preventDefault(); // Prevent the default link action
+
+  const email = document.getElementById("login-email").value;
+
+  if (email) {
+    sendPasswordResetEmail(auth, email)
+      .then(() => {
+        // Email sent, notify the user
+        alert("Password reset email sent! Check your inbox.");
+      })
+      .catch((error) => {
+        // Handle errors here
+        alert("Error: " + error.message);
+      });
+  } else {
+    alert("Please enter your email address.");
+  }
+});
 
 // Attach event listeners
 document.getElementById("login-form").addEventListener("submit", loginUser);
