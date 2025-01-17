@@ -5,19 +5,19 @@ layout: default
 
 <link rel="stylesheet" href="/user/signup.css" type="text/css">
 
-<script defer src="/user/signup.js"></script> <!-- 'defer' means script runs after all HTML loads -->
+<script type="module" src="/user/signup.js" defer></script> <!-- 'defer' means script runs after all HTML loads -->
 
 <!-- Sign-Up Form -->
 <h1> Sign Up </h1>
 <form autocomplete="off">
     <div class="form-group">
-        <label for="signup-email">Email:</label>
+        <label for="signup-email"> Email: </label>
         <input type="email" id="signup-email" placeholder="Enter your email" required>
     </div>
     <div class="form-group">
-        <label for="signup-password">Password:</label>
+        <label for="signup-password"> Password: </label>
         <input type="password" id="signup-password" placeholder="Enter your password" required>
     </div>
-    <button type="submit">Sign Up</button>
+    <button type="submit"> Sign Up </button>
     <a href="/user/login.html"> Already have an account? Login here! </a>
 </form>
