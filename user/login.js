@@ -43,4 +43,3 @@ function loginUser(event) {
 
 // Attach event listeners
 document.getElementById("login-form").addEventListener("submit", loginUser);
-document.getElementById("login-password-toggle").addEventListener("click", togglePasswordVisibility);

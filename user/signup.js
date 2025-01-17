@@ -43,4 +43,3 @@ function signupUser(event) {
 
 // Attach event listeners
 document.getElementById("signup-form").addEventListener("submit", signupUser);
-document.getElementById("toggle-signup-password-visibility").addEventListener("click", togglePasswordVisibility);
