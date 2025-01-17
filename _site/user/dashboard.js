@@ -1,27 +1,31 @@
-// Firebase initialization (from imports.html or a separate Firebase setup file)
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
-
-// Initialize Firebase Authentication
 const auth = getAuth();
 
-// Check if the user is authenticated
+// Check if the user is logged in
 onAuthStateChanged(auth, (user) => {
-  if (user) {
-    // User is signed in
-    document.getElementById("user-email").textContent = user.email;
-  } else {
-    // User is not signed in, redirect to login page
-    window.location.href = "login.html";
-  }
-});
+  const userEmail = document.getElementById("user-email");
+  const protectedContent = document.getElementById("protected-content");
+  const logoutButton = document.getElementById("logout-button");
 
-// Handle logout
-document.getElementById("logout-button").addEventListener("click", () => {
-  signOut(auth).then(() => {
-    // Sign-out successful, redirect to login page
-    window.location.href = "login.html";
-  }).catch((error) => {
-    console.error("Logout error:", error.message);
-    alert("Error: " + error.message);
+  if (user) {
+    // User is logged in
+    userEmail.textContent = user.email;
+    protectedContent.style.display = "block"; // Show protected content
+  } else {
+    // No user is logged in, redirect to login page
+    window.location.href = "/user/login.html";
+  }
+
+  // Logout functionality
+  logoutButton.addEventListener("click", () => {
+    signOut(auth)
+      .then(() => {
+        console.log("User logged out");
+        window.location.href = "/user/login.html"; // Redirect to login page after logout
+      })
+      .catch((error) => {
+        console.error("Error logging out:", error.message);
+      });
   });
 });
+
