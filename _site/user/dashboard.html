@@ -58,8 +58,11 @@
     <a href="/projects.html"> Projects </a>
     <a href="/blog.html"> Blog </a>
     <a href="/contact.html"> Contact </a>
-    <a href="/user/login.html"> Login </a>
+    <a href="/user/login.html" id="login-link"> Login </a>
 </div>
+
+<!-- Load script to change Login link to My Dashboard when user is signed in -->
+<script type="module" src="/user/navigation.js" defer></script>
         <br>
         <main class="article" aria-label="Content">
             <!DOCTYPE html>
@@ -81,9 +84,9 @@
     </div>
 
     <div id="protected-content">
-      <h2>Your Portfolio and Weekly Recommendations</h2>
+      <h2> Protected Content </h2>
       <!-- Add the content that you want to protect here -->
-      <p>Here you can add your portfolio details, recommendations, etc.</p>
+      <p> Add the content that you want to protect here. </p>
     </div>
 
   </div>
