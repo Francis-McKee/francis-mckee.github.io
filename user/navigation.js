@@ -30,6 +30,6 @@ onAuthStateChanged(auth, (user) => {
     } else {
       // User is logged out
       loginLink.textContent = "Login";
-      loginLink.href = "/login.html";
+      loginLink.href = "/user/login.html";
     }
 });

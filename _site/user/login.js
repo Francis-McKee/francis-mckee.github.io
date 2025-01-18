@@ -1,3 +1,7 @@
+// Import Firebase libraries
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
+
 // Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBBTiBF5JvaVgEl3R19KNN1RaKaozebiqk",
@@ -8,10 +12,6 @@ const firebaseConfig = {
   appId: "1:66512560822:web:09f3514888d4e00f0abc17",
   measurementId: "G-KTMMERNNHN"
 };
-
-// Import Firebase libraries
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

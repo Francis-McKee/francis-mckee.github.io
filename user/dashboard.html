@@ -8,18 +8,38 @@ layout: default
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
+  <title> Dashboard </title>
   <link rel="stylesheet" href="/user/dashboard.css">
 </head>
 <body>
 
   <div id="dashboard-container">
     <h1>Welcome to Your Dashboard</h1>
+    <br>
 
     <div id="user-info">
-      <p>Email: <span id="user-email"></span></p>
+      <h2> Account Settings </h2>
+      <p> Email: <span id="user-email"></span> </p>
       <button id="logout-button">Log Out</button>
     </div>
+
+    <!-- message container -->
+    <div id="email-change-message" class="message" aria-live="polite"></div>
+
+    <!-- Change Email form -->
+    <div id="email-change-form">
+      <h2> Change Your Account Email </h2>
+      <form id="change-email-form" autocomplete="off">
+        <label for="new-email"> New Email: </label>
+        <input type="email" id="new-email" placeholder="Enter your new email" required autocomplete="off">
+        
+        <label for="password"> Password: </label>
+        <input type="password" id="password" placeholder="Enter your password" required autocomplete="off">
+        
+        <button type="submit"> Change Email </button>
+      </form>
+    </div>
+    
 
     <div id="protected-content">
       <h2> Protected Content </h2>
