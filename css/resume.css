@@ -1,15 +1,24 @@
 /* Resume.html CSS */
 
+a {
+    text-decoration: underline;
+    color: #9C8B7E;
+}
+
+a:hover {
+    color: #555;
+}
+
 .download {
     text-align: center;
-    margin: 20px; /* Adjust the margin as needed */
+    margin: 20px;
   }
   
 .download a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #555; /* Adjust the background color */
-    color: #fff; /* Adjust the text color */
+    background-color: #555;
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -20,13 +29,4 @@
   
 .download a:hover {
     background-color: #9C8B7E;
-}
-
-a {
-    text-decoration: underline;
-    color: #9C8B7E;
-}
-
-a:hover {
-    color: #555;
 }
