@@ -41,7 +41,7 @@ This is a great credit card for me because I am a student and I was able to get 
 ## Review
 1. Invest in high yield dividend funds to generate weekly income.
 2. Pay with a credit card (including bills and subscriptions), earning cash back rewards as you shop.
-3. Wait until the end of the statement before paying off the card, allowing dividends to accumulate before making payments.
+3. Wait until the end of the statement before paying off the card, allowing dividends to accumulate before making payments. You can set up automatic reccuring payments if you are afraid you may forget.
 4. If you have the dividends in your brokerage cash balance, your payments will pull from there.
 5. If you do not have the dividends, the payment will add to your margin debt at a lower interest rate than typical credit card debt.
 
