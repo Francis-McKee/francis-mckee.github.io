@@ -19,7 +19,7 @@ This account is where my W2 income from my day job is deposited. Besides that, I
 Once I get paid from my day job I immediately send the money from my Savings account to my Checking account. Then from there I send the money to the next component of my setup, my Investing account. 
 Yes, thats it. As you can see nothing exciting happens here, as I keep the vast majority of my money in my Schwab account. The average investor grows their account by an average of 7-12% per year over their lifetime, but keeping my money in the bank earns me 0.01% in interest per month. Not worth it to me to keep it there, I would rather have my money work for me so I can retire early.
 
-## Investing Account
+## Investing Account:
 Now that we established the benefit of investing your money versus keeping it in a bank earning little to no interest, you are probably wondering how to get started. Now this is more of a preference to me, but I use Charles Schwab to handle my investment accounts. I'd strongly recommend using a professional brokerage such as Charles Schwab, E-Trade, Fidelity, Vanguard, or JP Morgan. My only recommendation is to not use Robinhood, mainly due to it being investigated in the past for unethical business practices and ordered to pay $70 million for misleading customers, approving risky trades, and not preventing system outages that cost its users money. I would hate for a stock I own to crash and not be able to sell in time because the brokerage I used isn't working. Also, for some reason Robinhood doesn't allow you to purchase certain ETF's for some reason, which I realized after recommending CLM and CRF to a friend who uses the platform. Now, here's how I use Schwab:
 
 ### 1. Brokerage Account
@@ -34,7 +34,7 @@ Now what if you don't have enough dividends to pay your expenses, or you have an
 
 You are charged margin interest (adding to the debt) once a month, so you may be able to earn enough dividends in a few weeks to pay of your debt before you are charged interest. There is no set due date to pay back your margin, but remember the longer you carry debt, the longer you will be charged interest for it. Another key difference between margin and credit card debt is that margin debt does not show up in a credit check, but credit card debt does. This means you can keep your credit score up and still qualify for loans from banks, even with a substantial amount of margin debt.
 
-## Credit Card
+## Credit Card:
 We have already talked about the most important features of my money management strategy, but it would be very remiss of me not to at least mention the credit card. I currently have one credit card, the Discover Student Cash Back card. I chose this card years ago when I was 18 and have not applied for a second card since. As I previously mentioned, this card is linked to my Schwab checking account.
 
 ### Discover Student Cash Back Credit Card
