@@ -17,7 +17,7 @@ layout: default
 
 {{ content }}
 
-<h2>Posts</h2>
+<h2>Latest Posts:</h2>
 <ul>
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% for post in filtered_posts %}

@@ -35,3 +35,16 @@ h1 {
     color: white;
     background-color: #9C8B7E
 }
+
+.posts {
+    display: grid;
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+    .posts {
+      width: 90%;
+    }
+}
