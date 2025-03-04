@@ -39,7 +39,6 @@ h1 {
 .posts {
     display: grid;
     margin: auto;
-    margin-top: 10px;
     width: 60%;
 }
 
