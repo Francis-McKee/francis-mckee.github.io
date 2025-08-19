@@ -139,6 +139,25 @@ body {
   box-sizing: border-box;
 }
 
+/* share buttons for blog posts */
+.share-buttons {
+  text-align: center;
+}
+
+.share-buttons a {
+  text-decoration: none;
+}
+
+.share-buttons a i {
+  margin-right: 10px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.share-buttons a i:hover {
+  color: #9C8B7E;
+}
+
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
 
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
