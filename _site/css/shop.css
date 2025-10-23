@@ -22,35 +22,6 @@ body {
     display: block;
     clear: both;
 }
-
-.message {
-    max-width: 400px;
-    margin: 0 auto;
-    font-size: 14px;
-    text-align: center;
-    padding: 8px;
-    border-radius: 4px;
-    background-color: #555;
-    color: #fff;
-    display: none; /* Hide initially */
-}
-
-.view-cart-button {
-    background-color: #555;
-    color: white;
-    border: none;
-    display: block;
-    margin: auto;
-    padding: 12px 20px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.view-cart-button:hover {
-    background-color: #9C8B7E;
-}
   
 .noBullet {
     list-style-type: none;

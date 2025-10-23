@@ -56,11 +56,7 @@
     <a href="/projects.html"> Projects </a>
     <a href="/blog.html"> Blog </a>
     <a href="/contact.html"> Contact </a>
-    <a href="/user/login.html" id="login-link"> Login </a>
 </div>
-
-<!-- Load script to change Login link to My Dashboard when user is signed in -->
-<script type="module" src="/user/navigation.js" defer></script>
         <br>
         <main class="article" aria-label="Content">
             <meta name="keywords" content="Shop, Store">
@@ -68,50 +64,42 @@
 
 <link rel="stylesheet" href="/css/shop.css" type="text/css">
 <link rel="stylesheet" href="/css/cart.css" type="text/css">
-<script type="module" src="/js/cart.js" defer></script>
 
 <div class="wrapper">
     <br>
     <div class="article">
+        <h1> Shop: </h1>
+        <h2> Products: </h2>
+            <ul class="noBullet">
+                <li class="product">
+                    <a href="https://francismckee.gumroad.com/l/contact-form" target="_blank">
+                        <img src="/images/shop/grey-shades.jpg" width="300" height="250" alt="Contact Form">
+                    </a>
+                    <p><a href="https://francismckee.gumroad.com/l/contact-form" target="_blank">Working Contact Form with Formspree (HTML & CSS) </a></p>
+                    <p class="description"> A working, mobile-friendly responsive email contact form built with Formspree and designed with HTML and CSS. </p>
+                </li>
 
-        <!-- message container -->
-        <div id="message" class="message" aria-live="polite"></div>
-
-        <h1>Shop:</h1>
-        <button id="view-cart-button" class="view-cart-button">View Cart</button>
-        <ul class="noBullet">
-            <li class="product">
-                <a href="https://francismckee.gumroad.com/l/contact-form" target="_blank">
-                    <img src="/images/shop/grey-shades.jpg" width="300" height="250" alt="Contact Form">
-                </a>
-                <p><a href="https://francismckee.gumroad.com/l/contact-form" target="_blank">Working Contact Form with Formspree (HTML & CSS)</a></p>
-                <p class="description">A working, mobile-friendly responsive email contact form built with Formspree and designed with HTML and CSS.</p>
-                <button class="add-to-cart-button" data-item="Contact Form" data-url="https://francismckee.gumroad.com/l/contact-form">Add to Cart</button>
-            </li>
-
-            <li class="product">
-                <a href="https://francismckee.gumroad.com/l/navbar" target="_blank">
-                    <img src="/images/shop/pink-shades.jpg" width="300" height="250" alt="Responsive Navigation Bar">
-                </a>
-                <p><a href="https://francismckee.gumroad.com/l/navbar" target="_blank"> Responsive Navigation Bar for Web Development (HTML & CSS)</a></p>
-                <p class="description">A clean, mobile-friendly responsive navbar built with HTML and CSS. It includes a toggle menu icon for smaller screens using Font Awesome.</p>
-                <button class="add-to-cart-button" data-item="Responsive Navigation" data-url="https://francismckee.gumroad.com/l/navbar">Add to Cart</button>
-            </li>
-        </ul>
+                <li class="product">
+                    <a href="https://francismckee.gumroad.com/l/navbar" target="_blank">
+                        <img src="/images/shop/pink-shades.jpg" width="300" height="250" alt="Responsive Navigation Bar">
+                    </a>
+                    <p><a href="https://francismckee.gumroad.com/l/navbar" target="_blank"> Responsive Navigation Bar for Web Development (HTML & CSS) </a></p>
+                    <p class="description"> A clean, mobile-friendly responsive navbar built with HTML and CSS. It includes a toggle menu icon for smaller screens using Font Awesome. </p>
+                </li>
+            </ul>
+        <br>
+        <h2> Services: </h2>
+            <ul class="noBullet">
+                <li class="product">
+                    <a href="https://francismckee.gumroad.com/l/survey-for-lead-generation" target="_blank">
+                        <img src="/images/shop/pink-shades.jpg" width="300" height="250" alt="Custom Web Survey for Lead Generation">
+                    </a>
+                    <p><a href="https://francismckee.gumroad.com/l/survey-for-lead-generation" target="_blank"> Custom Web Survey for Lead Generation </a></p>
+                    <p class="description"> I will create a custom web survey for your business to capture email leads. </p>
+                </li>
+            </ul>
     </div>
     <br>
-</div>
-
-<div id="cart-modal" class="modal">
-    <div class="modal-content">
-        <span class="close" id="close-cart-modal">×</span>
-        <h3>Your Cart</h3>
-        <br>
-        <ul id="cart-items"></ul>
-        <br><br>
-        <button id="clear-cart-button" class="cart-button">Clear Cart</button>
-        <button id="process-order-button" class="cart-button">Process Order</button>
-    </div>
 </div>
 
         </main>

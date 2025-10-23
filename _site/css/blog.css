@@ -33,13 +33,30 @@ h1 {
 
 .category-links a:hover {
     color: white;
-    background-color: #9C8B7E
+    background-color: #9C8B7E;
 }
 
 .posts {
     display: grid;
     margin: auto;
     width: 60%;
+}
+
+.tags {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.tags a {
+    color: white;
+    background-color: #555;
+    padding: 6px 10px;
+}
+
+.tags a:hover {
+    color: white;
+    background-color: #9C8B7E;
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
