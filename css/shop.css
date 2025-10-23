@@ -40,26 +40,57 @@ body {
 .article a:hover {
     text-decoration: underline;
 }
-  
+
+li > img {
+    position: relative;
+    width: 100%; /* set to fill 100% of container class block */
+}
+
+img {
+    border: solid 1px black;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
 /* Product Block CSS */
   
-li.product {
+.products li.product {
     display: block;
     float: left;
     width: 300px;
     margin: 10px;
 }
   
-li > img {
-    position: relative;
-    width: 100%; /* set to fill 100% of container class block */
-}
-  
-li.product p {
+.products li.product p {
     text-align: center;
     width: 100%; /* set to fill 100% of container class block */
 }
 
-li.product p.description {
+.products li.product p.description {
+    color: #555;
+}
+
+/* Service Block CSS */
+
+.services {
+    clear: both;
+}
+
+.services li.service {
+    display: block;
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+.services li.service p {
+    text-align: center;
+    width: 100%;
+}
+
+.services li.service p.description {
     color: #555;
 }
