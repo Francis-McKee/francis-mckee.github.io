@@ -197,10 +197,6 @@ body {
     margin: 10px;
   }
 
-  .footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
-    display: none;
-  }
-
   .comments-container {
     max-width: 100%; /* makes it full width on smaller screens */
     padding: 10px;
@@ -218,6 +214,14 @@ body {
     display: block;
     width: 100%;
     text-align: left;
-    margin: 5px 0;
+  }
+
+  .footer ul li,
+  .footer p { /* separate the links a bit to improve mobile UX */
+    margin: 2px 0;
+  }
+
+  .footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
+    display: none;
   }
 }
