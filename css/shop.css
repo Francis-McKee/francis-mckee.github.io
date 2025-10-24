@@ -1,20 +1,4 @@
-body {
-    text-align: center;
-    font-size: 16px;
-    box-sizing: border-box; /* contains in parent */
-}
-  
-* {
-    box-sizing: inherit; /* inherits "box-sizing: border-box" above for all elements */
-}
-  
-.wrapper {
-    width: 100%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
+/* shop.html CSS */
 
 /* clearfix solution to ensure the footer isnt included as a project block */
 .wrapper::after {
