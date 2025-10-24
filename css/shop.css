@@ -94,3 +94,38 @@ h1 {
 .services li.service p.description {
     color: #555;
 }
+
+@media screen and (max-width: 425px) { /* mobile devices only - no tablets */
+
+    .products,
+    .services,
+    .noBullet {
+        padding: 0;
+        margin: 0;
+    }
+
+    .products li.product,
+    .services li.service {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 90%;
+        max-width: 100%;
+        margin: 40px auto;
+    }
+
+    .products li.product:last-child,
+    .services li.service:last-child {
+        margin: 20px auto;
+    }
+
+    .products img,
+    .services img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
