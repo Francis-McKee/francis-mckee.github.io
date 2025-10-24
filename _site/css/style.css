@@ -206,3 +206,18 @@ body {
     padding: 10px;
   }
 }
+
+@media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
+  .footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .footer ul li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+  }
+}
