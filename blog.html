@@ -10,10 +10,9 @@ title: Blog
 
 <h1><a href="/categories.html">Categories</a></h1>
 <ul class="category-links">
-  {% for category in site.categories %}
-
-    <li><a href="{{ category.url }}">{{ category.name }}</a></li>
-
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <li> <a href="{{ category.url }}">{{ category.name }}</a> </li>
   {% endfor %}
 </ul>
 <br>
