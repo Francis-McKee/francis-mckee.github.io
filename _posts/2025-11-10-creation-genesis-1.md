@@ -52,7 +52,10 @@ But how can there be an "evening and a morning" in days 1, 2, and 3 without the 
 
 > Genesis 1:3-5 - "And God said, Let there be light: and there was light. And God saw the light, that it was good: and God divided the light from the darkness. And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
 
-The word the author uses for 'light' here is *Ôr*, translated to mean 'light, brightness, lightning, luminary, daylight, sunlight, illumination, enlightenment, happiness, cheerfulness'. Generally speaking, darkness is associated with death, failure, suffering, folly, and sin. Light is associated with life, salvation, prosperity, wisdom, and justice. This light here in these verses was distinct from the luminaries in space created in day 4.
+The word the author uses for 'light' here is *Ôr*, translated to mean 'light, brightness, lightning, luminary, daylight, sunlight, illumination, enlightenment, happiness, cheerfulness'. Generally speaking, darkness is associated with death, failure, suffering, folly, and sin. Light is associated with life, salvation, prosperity, wisdom, and justice. This light here in these verses was distinct from the luminaries in space created in day 4. Many Christian theologians understand the day 1 light as the manifestation of God’s glory — the uncreated light — distinct from the created luminaries of day 4.
+
+> Genesis 1:3 - "And God said, Let there be light: and there was light."
+According to Jewish Kabbalistic teaching, wherever the word *vayehi* [and there was] is applied, that thing is in this world and the world to come.
 
 > Genesis 1:14-19 - "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so. And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also. And God set them in the firmament of the heaven to give light upon the earth, And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good. And the evening and the morning were the fourth day."
 
@@ -64,6 +67,8 @@ Talking about Jesus Christ:
 The word John uses for 'light' in the Greek is *Phos*. This is defined as 'the light of the sun or of the day'. This is different from the light of the moon or stars as *Phos* is never kindled by the hands of another, and can therefore never be quenched.
 
 Was Jesus Christ the Light that regulated the evening and the morning before the sun, moon, and stars were created?
+
+> Revelation 21:23 - "And the city had no need of the sun, neither of the moon, to shine in it: for the glory of God did **lighten** it, and **the Lamb is the light** thereof."
 
 ## What is a Chiasm?
 
@@ -92,7 +97,7 @@ For example, the Genesis 1 chiasm can be found in the number of days of creation
 
 Day 4 - Sun, Moon, Stars
 
-The middle word in Genesis 1 in the Tanakh (the Hebrew Bible) is found in this day 4, and is 'seasons', or *mo'edim* in Hebrew (*mo'ed* in the singular form). This word is essential to the Jewish life, and is literally translated as a congregation, festive gathering, appointment, or signal. Since the Jewish festivals occured at regular intervals, this word became closely identified with them, as well as with the Sabbath. 
+The middle word in Genesis 1 in the Tanakh (the Hebrew Bible) is found in this day 4, and is 'seasons', or *mo'edim* in Hebrew (*mo'ed* in the singular form). This word is essential to the Jewish life, and is literally translated as a congregation, festive gathering, appointment, or signal. Since the Jewish festivals occurred at regular intervals, this word became closely identified with them, as well as with the Sabbath. 
 
 The focus of the chiasm is rest. God is trying to teach the readers that their value does not come from what they produce, but from who they are as children of God. We are human beings, not human doings. Jews today still honor the Sabbath and God given festivals throughout the year by resting and doing no work.
 
@@ -100,7 +105,8 @@ The focus of the chiasm is rest. God is trying to teach the readers that their v
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [The BEMA Podcast, Episode 1: Trust the Story](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000375077943)
 3. [The Torah Portion-by-Portion by Rabbi Seymour Rossel (2007)](https://a.co/d/boaYc5X)
-4. [Rob Bell - Everything is Spiritual Tour](https://www.youtube.com/watch?v=i2rklwkm_dQ)
+4. [Zohar, The Book of Splendor. Basic Readings from the Kabbalah - Edited by Gershom Scholem](https://a.co/d/j9eMU21)
+5. [Rob Bell - Everything is Spiritual Tour](https://www.youtube.com/watch?v=i2rklwkm_dQ)
 
 
 
