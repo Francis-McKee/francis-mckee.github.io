@@ -55,6 +55,7 @@ But how can there be an "evening and a morning" in days 1, 2, and 3 without the 
 The word the author uses for 'light' here is *Ôr*, translated to mean 'light, brightness, lightning, luminary, daylight, sunlight, illumination, enlightenment, happiness, cheerfulness'. Generally speaking, darkness is associated with death, failure, suffering, folly, and sin. Light is associated with life, salvation, prosperity, wisdom, and justice. This light here in these verses was distinct from the luminaries in space created in day 4. Many Christian theologians understand the day 1 light as the manifestation of God’s glory — the uncreated light — distinct from the created luminaries of day 4.
 
 > Genesis 1:3 - "And God said, Let there be light: and there was light."
+
 According to Jewish Kabbalistic teaching, wherever the word *vayehi* [and there was] is applied, that thing is in this world and the world to come.
 
 > Genesis 1:14-19 - "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so. And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also. And God set them in the firmament of the heaven to give light upon the earth, And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good. And the evening and the morning were the fourth day."
@@ -105,7 +106,7 @@ The focus of the chiasm is rest. God is trying to teach the readers that their v
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [The BEMA Podcast, Episode 1: Trust the Story](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000375077943)
 3. [The Torah Portion-by-Portion by Rabbi Seymour Rossel (2007)](https://a.co/d/boaYc5X)
-4. [Zohar, The Book of Splendor. Basic Readings from the Kabbalah - Edited by Gershom Scholem](https://a.co/d/j9eMU21)
+4. [Zohar, The Book of Splendor. Basic Readings from the Kabbalah - Edited by Gershom Scholem (1987)](https://a.co/d/j9eMU21)
 5. [Rob Bell - Everything is Spiritual Tour](https://www.youtube.com/watch?v=i2rklwkm_dQ)
 
 

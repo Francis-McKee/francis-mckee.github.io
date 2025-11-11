@@ -26,7 +26,7 @@ title: Blog
       </h2>
       <p> {{ post.excerpt }} </p>
       <p class="tags">
-        <a href="/categories/{{ post.category | slugify }}/">{{ post.category }}</a>
+        <a href="/categories/{{ post.category | slugify }}.html">{{ post.category }}</a>
       </p>
       <p style="color: #555"> {{ post.date | date_to_string }} </p>
     </li>
