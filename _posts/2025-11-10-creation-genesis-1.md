@@ -70,8 +70,8 @@ Was Jesus Christ the Light that regulated the evening and the morning before the
 A chiasm is a literary technique commonly found in the Bible that presents a concept and then presents it back in the same or reverse order, without necessarily a repetition of the same words. In the middle of this structure is found a key focal point of the passage. In the Bible, the length of a chiasm can range from just one verse to a chapter or even an entire book.
 
 Chiasmic Patterns:
-- ABC | ABC
-- ABC | CBA
+- ABC ABC
+- ABC CBA
 - ABCDCBA
 
 etc.
