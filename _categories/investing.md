@@ -2,7 +2,7 @@
 short_name: investing
 name: Investing
 ---
-This is a category created for all posts related to investing and the stock market. Posts in this category are posted weekly with my 'Stock of the Week' picks and other general thoughts/ points of interest.  
+This is a category created for all posts related to investing and the stock market.
 
 ### Financial Disclaimer:
 The information and tools provided on their website '[https://fnmckee.com]([https://fnmckee.com])', including but not limited to this blog, is for educational and informational purposes only. It should not be construed as financial, investment, or legal advice.
