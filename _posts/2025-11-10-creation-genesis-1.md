@@ -1,7 +1,7 @@
 ---
 layout: post
 category: theology
-title: Creation - Genesis 1
+title: Genesis 1 - Creation
 date: 2025-11-10
 comments: true
 ---
