@@ -1,6 +1,6 @@
 ---
 layout: post
-category: investing
+category: random
 title: "The Ultimate Money Management Strategy for Maximum Flexibility and Cash Flow"
 date: 2025-01-30
 comments: true
@@ -25,7 +25,7 @@ Now that we established the benefit of investing your money versus keeping it in
 ### 1. Brokerage Account
 After I move my paycheck from my Savings account to my Checking account, I then log into Schwab and request the money from my checking account to move into my brokerage Account. Now this may seem like a lot of moving and extra steps, but remember you only need to do all this when you get paid, for me every two weeks. My brokerage account only has access to my checking account and not my savings account because if my information does somehow get stolen or hacked, I want to separate my accounts as much as possible. From here, I invest the paycheck into a high yield ETF to provide me consistent weekly dividend income. You can do this by investing in monthly funds with overlapping payment dates (Ex: TSLY, NVDY, CONY, MSTY) or invest in a weekly paying fund to achieve this.
 
-I do not automatically reinvest all the dividends because I use some of the dividends to live, while the leftover I then later choose to reinvest in whatever I'd like. This strategy means as long as you never sell your securities, your principal will never decrease. While a stock or ETF's value may go up and down over time, as long as you are consistently paid a monthly dividend that is greater than your monthly expenses, you never have to worry, and you will have extra money to reinvest! You can read more about what I invest in by reading my investing blog posts [here](http://127.0.0.1:4000/categories/investing.html), but I encourage you to do your own research. It is also beneficial when creating your account to add the margin feature to your account, as I will further explain below.
+I do not automatically reinvest all the dividends because I use some of the dividends to live, while the leftover I then later choose to reinvest in whatever I'd like. This strategy means as long as you never sell your securities, your principal will never decrease. While a stock or ETF's value may go up and down over time, as long as you are consistently paid a monthly dividend that is greater than your monthly expenses, you never have to worry, and you will have extra money to reinvest! It is also beneficial when creating your account to add the margin feature to your account, as I will further explain below.
 
 ### 2. Checking Account
 I also have a Schwab Checking account which is linked to my brokerage account and has 0 overdraft fees and no overdraft limit per month. This is the account that becomes my primary bank account, where my all payments are drawn from. It is important that this account has no overdraft fees, because I do not keep any money in it! This means that when I charge a payment to this account with my credit card (more on that later), the payment is automatically overdrafted and taken from my brokerage account where my dividends are paid. This closes the loop to ensure my dividends are paying off my expenses, and not my W2 paycheck.
@@ -49,3 +49,4 @@ This is a great credit card for me because I am a student and I was able to get 
 
 By following this system, I maximize my financial flexibility while ensuring that my investments (not my paycheck) fund my lifestyle. Let me know what you think in the comments below!
 
+[Financial Disclaimer]()
