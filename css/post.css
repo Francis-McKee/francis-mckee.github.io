@@ -6,3 +6,18 @@ a {
 a:hover {
     color: #555;
 }
+
+img {
+    display: block;
+    max-height: 300px;
+    max-width: 600px;
+    object-fit: contain;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse; /* no double borders */
+}
