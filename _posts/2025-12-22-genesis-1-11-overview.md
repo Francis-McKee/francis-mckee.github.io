@@ -13,16 +13,25 @@ Scripture:
 * Genesis 12-50 = Introduction
 * Exodus - Revelation = Narrative
 
-Preface - Genesis 1-11
-| Creation  | Adam and Eve | Cain and Abel | Geneology | The Flood    | Noah's Curse  | Tower of Babel | Geneology   |
-| --------- | ------------ | ------------- | --------- | ------------ | ------------- | -------------- | ----------- |
-| Genesis 1 | Genesis 2-3  | Genesis 4     | Genesis 5 | Genesis 6-9a | Genesis 9b-10 | Genesis 11a    | Genesis 11b |
+Preface - Genesis 1-11  
+* Creation - Genesis 1
+* Adam and Eve - Genesis 2-3
+* Cain and Abel - Genesis 4
+* Geneology - Genesis 5
+* The Flood - Genesis 6-9a
+* Noah's Curse - Genesis 9b-10
+* Tower of Babel - Genesis 11a
+* Geneology - Genesis 11b
 
-Preface
-| Creation      | The Flood      |
-| Adam and Eve  | Noah's Curse   |
-| Cain and Abel | Tower of Babel |
-| Geneology     | Geneology      |
+It might be easier to see this way...
+* A: Creation - *ruach*, be fruitful and multiply, Sabbath rest
+* B: Adam and Eve - garden, fruit, nakedness, covering the nakedness, curse
+* C: Cain and Abel - sacrifices/offerings to Heaven, Cain cursed to wander, acquiring flocks and crops
+* D: Geneology
+* A': The Flood - *ruach*, be fruitful and multiply, Sabbath rest
+* B': Noah's Curse - vineyard, fruit, nakedness, covering the nakedness, curse
+* C': Tower of Babel - tower to Heaven, the people are scattered, acquiring brick and slime
+* D': Geneology
 
 The Preface (Genesis 1-11) is a chiasm!
 
