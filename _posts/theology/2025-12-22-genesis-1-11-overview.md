@@ -35,7 +35,8 @@ It might be easier to see this way...
 
 The Preface (Genesis 1-11) is a chiasm!
 
-Middle: Genesis 5:28-29 - "When Lamech had lived 182 years, he had a son. He named him **Noah** and said, 'He will **comfort** us in the labor and painful toil of our hands caused by the ground the Lord has cursed.'"
+Middle:
+> Genesis 5:28-29 - "When Lamech had lived 182 years, he had a son. He named him **Noah** and said, 'He will **comfort** us in the labor and painful toil of our hands caused by the ground the Lord has cursed.'"
 
 Noah = "comfort"
 
