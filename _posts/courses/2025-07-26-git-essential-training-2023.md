@@ -1,7 +1,7 @@
 ---
 layout: post
-category: programming
-title: "Git Essential Training (2023)"
+category: courses
+title: "Git Essential Training"
 date: 2025-07-26
 comments: true
 ---

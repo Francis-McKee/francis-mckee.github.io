@@ -10,5 +10,4 @@ Another practical issue is that notebooks fill up quickly and are not easy to ca
 
 There are no advertisements on these posts, and I will link to my sources whenever possible at the bottom of each post. I do not currently earn income from Amazon affiliate links or any similar program in these posts. Please [contact me](https://fnmckee.com/contact.html) if there is anything I can do to better credit my sources. I take this very seriously and have no desire to take credit for the work of others as if it were my own.
 
-If these notes have been helpful and 
-you'd like to support this work, you can do so [here](https://buymetea.org/francis_mckee). There is no obligation, and all content will remain freely available.
+If these notes have been helpful and you'd like to support this work, you can do so [here](https://buymetea.org/francis_mckee). There is no obligation, and all content will remain freely available.

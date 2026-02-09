@@ -1,6 +1,6 @@
 ---
 layout: post
-category: programming
+category: courses
 title: User Interface Design and User Experience Design
 date: 2025-11-04
 comments: true
