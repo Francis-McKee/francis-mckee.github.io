@@ -37,6 +37,11 @@ h1 {
 }
 
 /* search bar in blog.html */
+.search {
+    margin: 0 auto;
+    width: 60%;
+}
+
 #search-input {
     width: 100%;
     padding: 10px;
@@ -81,34 +86,38 @@ mark {
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+    .search {
+        width: 90;
+    }
+    
     .posts {
-      width: 90%;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 425px) { /* mobile phones only - no tablets */
-  .category-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px; /* consistent spacing between items */
-    padding: 0;
-    margin: 0 auto;
-  }
+    .category-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px; /* consistent spacing between items */
+        padding: 0;
+        margin: 0 auto;
+    }
 
-  .category-links li {
-    display: inline-flex;
-    margin: 0; /* use gap instead */
-  }
+    .category-links li {
+        display: inline-flex;
+        margin: 0; /* use gap instead */
+    }
 
-  .category-links a {
-    color: white;
-    background-color: #555;
-    padding: 6px 10px;
-    text-decoration: none;
-  }
+    .category-links a {
+        color: white;
+        background-color: #555;
+        padding: 6px 10px;
+        text-decoration: none;
+    }
 
-  .category-links a:hover {
-    background-color: #9C8B7E;
-  }
+    .category-links a:hover {
+        background-color: #9C8B7E;
+    }
 }
