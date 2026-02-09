@@ -26,6 +26,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
+<!-- Lunr.js Library for blog search -->
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
+
     <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -77,500 +81,506 @@
   
 </ul>
 <br>
-<h1> Latest Posts: </h1>
-<ul class="posts">
-  
+<br>
+<input type="text" id="search-input" placeholder="Search posts...">
+<div id="search-results"></div>
+<br>
+<div id="latest-posts">
+  <h1> Latest Posts: </h1>
+  <ul class="posts">
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/02/09/genesis-39-40.html">Genesis 39-40</a>
-      </h2>
-      <p> <p>Genesis 39-40 - Joseph in the Second Pit</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/02/09/genesis-39-40.html">Genesis 39-40</a>
+        </h2>
+        <p> <p>Genesis 39-40 - Joseph in the Second Pit</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 09 Feb 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 09 Feb 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/02/05/genesis-38.html">Genesis 38</a>
-      </h2>
-      <p> <p>Genesis 38 - Judah and Tamar</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/02/05/genesis-38.html">Genesis 38</a>
+        </h2>
+        <p> <p>Genesis 38 - Judah and Tamar</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 05 Feb 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 05 Feb 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/02/02/genesis-37.html">Genesis 37</a>
-      </h2>
-      <p> <p>Genesis 37 - Joseph</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/02/02/genesis-37.html">Genesis 37</a>
+        </h2>
+        <p> <p>Genesis 37 - Joseph</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 02 Feb 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 02 Feb 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/29/genesis-36.html">Genesis 36</a>
-      </h2>
-      <p> <p>Genesis 36 - The Jacob Story</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/29/genesis-36.html">Genesis 36</a>
+        </h2>
+        <p> <p>Genesis 36 - The Jacob Story</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 29 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 29 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/28/genesis-34-35.html">Genesis 34-35</a>
-      </h2>
-      <p> <p>Genesis 34-35 - Rachel’s Idols</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/28/genesis-34-35.html">Genesis 34-35</a>
+        </h2>
+        <p> <p>Genesis 34-35 - Rachel’s Idols</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 28 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 28 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/26/genesis-33.html">Genesis 33</a>
-      </h2>
-      <p> <p>Genesis 33 - Jacob Reconciles with Esau</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/26/genesis-33.html">Genesis 33</a>
+        </h2>
+        <p> <p>Genesis 33 - Jacob Reconciles with Esau</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 26 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 26 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/25/genesis-32.html">Genesis 32</a>
-      </h2>
-      <p> <p>Genesis 32 - Jacob Wrestles with God</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/25/genesis-32.html">Genesis 32</a>
+        </h2>
+        <p> <p>Genesis 32 - Jacob Wrestles with God</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 25 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 25 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/21/genesis-30b-31.html">Genesis 30b-31</a>
-      </h2>
-      <p> <p>Genesis 30:25-43 - 31 - Jacob and Laban</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/21/genesis-30b-31.html">Genesis 30b-31</a>
+        </h2>
+        <p> <p>Genesis 30:25-43 - 31 - Jacob and Laban</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 21 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 21 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/20/genesis-29-30a.html">Genesis 29-30a</a>
-      </h2>
-      <p> <p>Genesis 29-30:1-24 - Jacob’s Family Record</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/20/genesis-29-30a.html">Genesis 29-30a</a>
+        </h2>
+        <p> <p>Genesis 29-30:1-24 - Jacob’s Family Record</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 20 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 20 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/16/genesis-28.html">Genesis 28</a>
-      </h2>
-      <p> <p>Genesis 28 - Jacob’s Dream</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/16/genesis-28.html">Genesis 28</a>
+        </h2>
+        <p> <p>Genesis 28 - Jacob’s Dream</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 16 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 16 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/12/genesis-27.html">Genesis 27</a>
-      </h2>
-      <p> <p>Genesis 27 - The (Stolen) Blessing</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/12/genesis-27.html">Genesis 27</a>
+        </h2>
+        <p> <p>Genesis 27 - The (Stolen) Blessing</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 12 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 12 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/11/genesis-26.html">Genesis 26</a>
-      </h2>
-      <p> <p>Genesis 26 - Isaac and the Philistines</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/11/genesis-26.html">Genesis 26</a>
+        </h2>
+        <p> <p>Genesis 26 - Isaac and the Philistines</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 11 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 11 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/09/genesis-25.html">Genesis 25</a>
-      </h2>
-      <p> <p>Genesis 25 - Jacob and Esau</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/09/genesis-25.html">Genesis 25</a>
+        </h2>
+        <p> <p>Genesis 25 - Jacob and Esau</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 09 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 09 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/07/genesis-23-24.html">Genesis 23-24</a>
-      </h2>
-      <p> <p>Genesis 23-24 - Isaac and Rebekah</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/07/genesis-23-24.html">Genesis 23-24</a>
+        </h2>
+        <p> <p>Genesis 23-24 - Isaac and Rebekah</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 07 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 07 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/04/genesis-21-22.html">Genesis 21-22</a>
-      </h2>
-      <p> <p>Genesis 21-22 - Isaac</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/04/genesis-21-22.html">Genesis 21-22</a>
+        </h2>
+        <p> <p>Genesis 21-22 - Isaac</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 04 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 04 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/03/genesis-20.html">Genesis 20</a>
-      </h2>
-      <p> <p>Genesis 20 - Abraham and Abimelech</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/03/genesis-20.html">Genesis 20</a>
+        </h2>
+        <p> <p>Genesis 20 - Abraham and Abimelech</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 03 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 03 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/02/genesis-18-19.html">Genesis 18-19</a>
-      </h2>
-      <p> <p>Genesis 18-19 - Abraham the Engager</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/02/genesis-18-19.html">Genesis 18-19</a>
+        </h2>
+        <p> <p>Genesis 18-19 - Abraham the Engager</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 02 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 02 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2026/01/01/genesis-17.html">Genesis 17</a>
-      </h2>
-      <p> <p>Genesis 17 - Covenant of Circumcision</p>
+      <li>
+        <h2>
+          <a href="/theology/2026/01/01/genesis-17.html">Genesis 17</a>
+        </h2>
+        <p> <p>Genesis 17 - Covenant of Circumcision</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 01 Jan 2026 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 01 Jan 2026 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/31/genesis-16.html">Genesis 16</a>
-      </h2>
-      <p> <p>Genesis 16 - Hagar and Ishmael</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/31/genesis-16.html">Genesis 16</a>
+        </h2>
+        <p> <p>Genesis 16 - Hagar and Ishmael</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 31 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 31 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/30/genesis-15.html">Genesis 15</a>
-      </h2>
-      <p> <p>Genesis 15 - The Blood Path Covenant</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/30/genesis-15.html">Genesis 15</a>
+        </h2>
+        <p> <p>Genesis 15 - The Blood Path Covenant</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 30 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 30 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/29/genesis-13-14.html">Genesis 13-14</a>
-      </h2>
-      <p> <p>Genesis 13-14 - Abram and Lot</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/29/genesis-13-14.html">Genesis 13-14</a>
+        </h2>
+        <p> <p>Genesis 13-14 - Abram and Lot</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 29 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 29 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/27/genesis-12b.html">Genesis 12b</a>
-      </h2>
-      <p> <p>Genesis 12:10-20 - Abram: Down to Egypt</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/27/genesis-12b.html">Genesis 12b</a>
+        </h2>
+        <p> <p>Genesis 12:10-20 - Abram: Down to Egypt</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 27 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 27 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/23/genesis-11b-12a.html">Genesis 11b-12a</a>
-      </h2>
-      <p> <p>Genesis 11:10-32 - 12:9 - The Call of Abram</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/23/genesis-11b-12a.html">Genesis 11b-12a</a>
+        </h2>
+        <p> <p>Genesis 11:10-32 - 12:9 - The Call of Abram</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 23 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 23 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/22/genesis-1-11-overview.html">Genesis 1-11 (Overview)</a>
-      </h2>
-      <p> <p>Genesis 1-11 (Overview) - The Preface</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/22/genesis-1-11-overview.html">Genesis 1-11 (Overview)</a>
+        </h2>
+        <p> <p>Genesis 1-11 (Overview) - The Preface</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 22 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 22 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/21/genesis-10-11a.html">Genesis 10-11a</a>
-      </h2>
-      <p> <p>Genesis 10-11:1-9 - The Tower of Babel</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/21/genesis-10-11a.html">Genesis 10-11a</a>
+        </h2>
+        <p> <p>Genesis 10-11:1-9 - The Tower of Babel</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 21 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 21 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/20/genesis-9b.html">Genesis 9b</a>
-      </h2>
-      <p> <p>Genesis 9:18-29 - Noah’s Misplaced Curse</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/20/genesis-9b.html">Genesis 9b</a>
+        </h2>
+        <p> <p>Genesis 9:18-29 - Noah’s Misplaced Curse</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 20 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 20 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/18/genesis-6-9a.html">Genesis 6-9a</a>
-      </h2>
-      <p> <p>Genesis 6-9a - Noah and the Flood</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/18/genesis-6-9a.html">Genesis 6-9a</a>
+        </h2>
+        <p> <p>Genesis 6-9a - Noah and the Flood</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 18 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 18 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/17/genesis-5.html">Genesis 5</a>
-      </h2>
-      <p> <p>Genesis 5 - Adam to Noah Geneology</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/17/genesis-5.html">Genesis 5</a>
+        </h2>
+        <p> <p>Genesis 5 - Adam to Noah Geneology</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 17 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 17 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/17/genesis-4.html">Genesis 4</a>
-      </h2>
-      <p> <p>Genesis 4 - Cain and Abel</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/17/genesis-4.html">Genesis 4</a>
+        </h2>
+        <p> <p>Genesis 4 - Cain and Abel</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 17 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 17 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/12/12/genesis-2-3.html">Genesis 2-3</a>
-      </h2>
-      <p> <p>Genesis 2 - Second Creation Story?</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/12/12/genesis-2-3.html">Genesis 2-3</a>
+        </h2>
+        <p> <p>Genesis 2 - Second Creation Story?</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 12 Dec 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 12 Dec 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/theology/2025/11/10/genesis-1.html">Genesis 1</a>
-      </h2>
-      <p> <p>Genesis 1 - Creation Story</p>
+      <li>
+        <h2>
+          <a href="/theology/2025/11/10/genesis-1.html">Genesis 1</a>
+        </h2>
+        <p> <p>Genesis 1 - Creation Story</p>
  </p>
-      <p class="tags">
-        <a href="/categories/theology.html">theology</a>
-      </p>
-      <p style="color: #555"> 10 Nov 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/theology.html">theology</a>
+        </p>
+        <p style="color: #555"> 10 Nov 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/programming/2025/11/04/user-interface-and-user-experience-design.html">User Interface Design and User Experience Design</a>
-      </h2>
-      <p> <p>Recently in October, I completed both the <strong>User Interface Design</strong> and <strong>User Experience Design</strong> courses through Western Governors University’s online program.</p>
+      <li>
+        <h2>
+          <a href="/programming/2025/11/04/user-interface-and-user-experience-design.html">User Interface Design and User Experience Design</a>
+        </h2>
+        <p> <p>Recently in October, I completed both the <strong>User Interface Design</strong> and <strong>User Experience Design</strong> courses through Western Governors University’s online program.</p>
  </p>
-      <p class="tags">
-        <a href="/categories/programming.html">programming</a>
-      </p>
-      <p style="color: #555"> 04 Nov 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/programming.html">programming</a>
+        </p>
+        <p style="color: #555"> 04 Nov 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/programming/2025/07/26/git-essential-training-2023.html">Git Essential Training (2023)</a>
-      </h2>
-      <p> <p>Just finished the course “Git Essential Training (2023)” by Barbara Forbes on LinkedIn Learning!</p>
+      <li>
+        <h2>
+          <a href="/programming/2025/07/26/git-essential-training-2023.html">Git Essential Training (2023)</a>
+        </h2>
+        <p> <p>Just finished the course “Git Essential Training (2023)” by Barbara Forbes on LinkedIn Learning!</p>
  </p>
-      <p class="tags">
-        <a href="/categories/programming.html">programming</a>
-      </p>
-      <p style="color: #555"> 26 Jul 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/programming.html">programming</a>
+        </p>
+        <p style="color: #555"> 26 Jul 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/random/2025/01/30/the-ultimate-money-management-strategy.html">The Ultimate Money Management Strategy for Maximum Flexibility and Cash Flow</a>
-      </h2>
-      <p> <p>Managing your finances efficiently requires a well-structured and thought out bank account setup. By properly linking bank, credit, and investment accounts, you can maximize flexibility, minimize your fees, and optimize your card rewards and cash flow. In this post, I’ll walk you through my setup and explain how each component works together to create a seamless financial system.</p>
+      <li>
+        <h2>
+          <a href="/random/2025/01/30/the-ultimate-money-management-strategy.html">The Ultimate Money Management Strategy for Maximum Flexibility and Cash Flow</a>
+        </h2>
+        <p> <p>Managing your finances efficiently requires a well-structured and thought out bank account setup. By properly linking bank, credit, and investment accounts, you can maximize flexibility, minimize your fees, and optimize your card rewards and cash flow. In this post, I’ll walk you through my setup and explain how each component works together to create a seamless financial system.</p>
  </p>
-      <p class="tags">
-        <a href="/categories/random.html">random</a>
-      </p>
-      <p style="color: #555"> 30 Jan 2025 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/random.html">random</a>
+        </p>
+        <p style="color: #555"> 30 Jan 2025 </p>
+      </li>
 
-  
+    
 
-    <li>
-      <h2>
-        <a href="/random/2023/03/29/test.html">Test</a>
-      </h2>
-      <p> <p>This is a test for an example blog post. Testing deployment…</p>
+      <li>
+        <h2>
+          <a href="/random/2023/03/29/test.html">Test</a>
+        </h2>
+        <p> <p>This is a test for an example blog post. Testing deployment…</p>
  </p>
-      <p class="tags">
-        <a href="/categories/random.html">random</a>
-      </p>
-      <p style="color: #555"> 29 Mar 2023 </p>
-    </li>
+        <p class="tags">
+          <a href="/categories/random.html">random</a>
+        </p>
+        <p style="color: #555"> 29 Mar 2023 </p>
+      </li>
 
-  
-</ul>
+    
+  </ul>
+</div>
         </main>
         <br>
         <div class="footer">

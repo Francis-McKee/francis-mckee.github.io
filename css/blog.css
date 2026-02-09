@@ -36,6 +36,27 @@ h1 {
     background-color: #9C8B7E;
 }
 
+/* search bar in blog.html */
+#search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-input::placeholder
+{
+    color: #555;
+}
+
+#search-results div {
+    margin: 6px 0;
+}
+
+mark {
+  background: #9C8B7E;
+  padding: 0 2px;
+}
+
 .posts {
     display: grid;
     margin: auto;
