@@ -87,7 +87,7 @@ mark {
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
     .search {
-        width: 90;
+        width: 90%;
     }
     
     .posts {
