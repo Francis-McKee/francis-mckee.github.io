@@ -1,6 +1,7 @@
 ---
 short_name: theology
 name: Theology
+permalink: /categories/theology/
 ---
 This category exists as a place for my theology notes from private study, listening to podcasts, and attending church on Sunday. One problem I have always had is that my handwritten notes end up scattered and out of order based on which portion of Scripture I happen to be studying at the time. This category solves that problem by allowing me to organize my notes in biblical order, from Genesis to Revelation, while still giving me the flexibility to revisit older notes, revise them, or add new insights as I continue learning.
 
@@ -13,5 +14,5 @@ There are no advertisements on these posts, and I will link to my sources whenev
 If these notes have been helpful and you'd like to support this work, you can do so [here](https://buymetea.org/francis_mckee). There is no obligation, and all content will remain freely available.
 
 ## Books
-* [Genesis](/theology/genesis.html)
+* [Genesis]({{ "/theology/genesis/" | relative_url }})
 
