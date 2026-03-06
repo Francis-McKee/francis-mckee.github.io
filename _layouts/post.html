@@ -44,6 +44,44 @@ layout: default
 <br>
 <br>
 
+{% assign path_parts = page.path | split: "/" %}
+{% assign book = path_parts[2] %}
+
+{% assign book_posts = site.posts 
+  | where_exp: "post", "post.path contains book" 
+  | sort: "date" %}
+
+{% for post in book_posts %}
+  {% if post.url == page.url %}
+
+    {% assign prev_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+
+    {% assign prev_post = book_posts[prev_index] %}
+    {% assign next_post = book_posts[next_index] %}
+
+  {% endif %}
+{% endfor %}
+
+<div class="post-nav">
+
+{% if prev_post %}
+<span>
+  <i class="fa-solid fa-arrow-left"></i> <a href="{{ prev_post.url }}"> {{ prev_post.title }}</a>
+</span>
+{% endif %}
+
+{% if next_post %}
+<span>
+  <a href="{{ next_post.url }}"> {{ next_post.title }}</a> <i class="fa-solid fa-arrow-right"></i>
+</span>
+{% endif %}
+
+</div>
+
+<br>
+<br>
+
 {% if page.comments %}
   <div class="comments-container">
     <div id="disqus_thread"></div>

@@ -25,3 +25,29 @@ td, th {
 table {
   border-collapse: collapse; /* no double borders */
 }
+
+.post-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px; /* gap between the two spans */
+  flex-wrap: wrap;
+}
+
+.post-nav span {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* gap between icon and link */
+}
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+  .post-nav {
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
+  .post-nav {
+    gap: 100px;
+  }
+}
