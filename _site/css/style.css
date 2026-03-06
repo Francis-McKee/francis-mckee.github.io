@@ -1,8 +1,9 @@
-body {
+html, body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;/* font-family */
   box-sizing: border-box; /* contains in parent */
   margin: 0; /* removes default margin */
+  height: 100%;
 }
 
 * {
@@ -16,12 +17,15 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 100%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   background-color: #D5D2CD;
   padding: 10px; /* note this adds padding around the footer */
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .topnav {
@@ -58,10 +62,11 @@ body {
   font-size: 18px;
 }
 
-/* references default layout 'main' with class 'article' */
-.article {
+/* references default layout 'main' */
+main {
   background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
-  margin-left: auto;
+  padding-left: 10px;
+  flex: 1;
 }
 
 .header {
@@ -70,7 +75,7 @@ body {
 }
 
 /* Footer CSS */
-.footer {
+footer {
   display: flex;
   flex-wrap: wrap; /* wrap to the next line if they dont fit on the current one */
   justify-content: space-between;
@@ -79,55 +84,55 @@ body {
   padding: 20px;
 }
 
-.footer .nav,
-.footer .icons,
-.footer .info {
+footer .nav,
+footer .icons,
+footer .info {
   flex: 1; /* equal spacing */
 }
 
-.footer .nav {
+footer .nav {
   text-align: left;
 }
 
-.footer .icons {
+footer .icons {
   text-align: center;
 }
 
-.footer .info {
+footer .info {
   text-align: right;
 }
 
-.footer ul {
+footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer ul li {
+footer ul li {
   display: inline-block;
   margin-right: 15px;
 }
 
-.footer p {
+footer p {
   margin: 0;
 }
 
-.footer a {
+footer a {
   text-decoration: underline;
   color: black;
   transition: color 0.3s; /* Smooth transition for color change */
 }
 
 /* Hover effect */
-.footer a:hover {
+footer a:hover {
   color: #D5D2CD; /* Change color on hover */
 }
 
-.footer i {
+footer i {
   margin-right: 10px;
 }
 
-.footer .copy {
+footer .copy {
   display: block;
   text-align: center;
   width: 100%;
@@ -191,7 +196,7 @@ body {
     text-align: center;
   }
 
-  .footer .icons { /* Footer icons now stack in a column instead of being smushed together */
+  footer .icons { /* Footer icons now stack in a column instead of being smushed together */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,24 +210,24 @@ body {
 }
 
 @media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
-  .footer ul {
+  footer ul {
     padding: 0;
     margin: 0;
     list-style: none;
   }
 
-  .footer ul li {
+  footer ul li {
     display: block;
     width: 100%;
     text-align: left;
   }
 
-  .footer ul li,
-  .footer p { /* separate the links a bit to improve mobile UX */
+  footer ul li,
+  footer p { /* separate the links a bit to improve mobile UX */
     margin: 2px 0;
   }
 
-  .footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
+  footer .icons a:last-child { /* hides the last a element on smaller screens to prevent bunching (temp fix) */
     display: none;
   }
 }
