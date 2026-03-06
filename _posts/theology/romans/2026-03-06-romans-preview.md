@@ -8,9 +8,9 @@ Romans (Preview)
 
 <br>
 
-**Date:** A.D. 56, Spring
-**Author:** The Apostle Paul
-**Intended Audience:** Primarily Gentile
+**Date:** A.D. 56, Spring  
+**Author:** The Apostle Paul  
+**Intended Audience:** Primarily Gentile  
 
 Main Sections of Romans:
 * Educate the believers in the basic doctrines related to salvation (Chapters 1-8)

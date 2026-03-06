@@ -8,9 +8,9 @@ Genesis (Preview)
 
 <br>
 
-**Date:** Prescientific Age
-**Author:** Moses
-**Intended Audience:** Ancient Israelites
+**Date:** Prescientific Age  
+**Author:** Moses  
+**Intended Audience:** Ancient Israelites  
 
 It has been suggested that Moses made use of certain documents and oral stories to write the book. The "looking over" or "familiarity with" other writings is not unheard of among the biblical writers, nor is it contrary to biblical inspiration. However, it must be remembered that the actual writing of the Book of Genesis was done by Moses, under the inspiration of the Holy Spirit.
 
