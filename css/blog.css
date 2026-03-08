@@ -1,11 +1,11 @@
 /* blog.html CSS */
 
-.article a { /* references default layout 'main' with class 'article' */
+main a { 
     text-decoration: underline;
     color: #9C8B7E;
 }
 
-.article a:hover {
+main a:hover {
     color: #555;
 }
 
@@ -48,8 +48,7 @@ h1 {
     font-size: 16px;
 }
 
-#search-input::placeholder
-{
+#search-input::placeholder {
     color: #555;
 }
 
