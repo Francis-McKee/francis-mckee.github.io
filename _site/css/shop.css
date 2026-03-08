@@ -11,17 +11,13 @@
     list-style-type: none;
 }
   
-.article {
-    margin-left: auto;
-}
-  
-.article a {
+main a {
     color: black;
     text-align: center;
     text-decoration: none;
 }
 
-.article a:hover {
+main a:hover {
     text-decoration: underline;
 }
 
