@@ -31,7 +31,11 @@ title: Blog
         <h2>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
+        {% if post.description %} 
+        <p> {{ post.description }} </p>
+        {% else %}
         <p> {{ post.excerpt }} </p>
+        {% endif %}
         <p class="tags">
           <a href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}">{{ post.category }}</a>
         </p>
