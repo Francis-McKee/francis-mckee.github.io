@@ -211,8 +211,8 @@ footer .copy {
 
 @media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
 
-  ul.sub-category {
-    padding-inline-start: 10px; /* this removes most of the default padding for our sub-category pages */
+  main ul {
+    padding-inline-start: 20px; /* this removes half of the default padding of 40px for our uls */
   }
   
   footer ul {

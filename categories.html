@@ -14,7 +14,7 @@ title: Categories
         <li>
             <h2><a href="{{ category.url }}">{{ category.name }}</a></h2>
             <h2>{{ category.position }}</h2>
-            <p>{{ category.content | markdownify }}</p>
+            <p>{{ category.excerpt | markdownify }}</p>
         </li>
     {% endfor %}
 </ul>
