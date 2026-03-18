@@ -34,7 +34,7 @@ title: Blog
         {% if post.description %} 
         <p> {{ post.description }} </p>
         {% else %}
-        <p> {{ post.excerpt }} </p>
+        <p> {{ post.excerpt | truncate: 160 }} </p>
         {% endif %}
         <p class="tags">
           <a href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}">{{ post.category }}</a>
