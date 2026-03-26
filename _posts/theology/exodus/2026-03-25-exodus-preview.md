@@ -19,4 +19,3 @@ The main theme of Exodus is redemption. The deliverance of the children of Israe
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
-3. [The BEMA Podcast, Episode 18: A Tale of Two Kingdoms](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000381007217)
