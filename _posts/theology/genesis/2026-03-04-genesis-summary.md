@@ -27,3 +27,8 @@ I also want to keep track of some areas of interest for further study.
 Areas of Further Study:
 * [Genesis 49 - Israel Blesses His Sons](https://fnmckee.com/theology/2026/03/01/genesis-49.html)
 * Why does the name of Israel switch back to Jacob after his name was changed?
+
+## Additional Resources
+
+Resources:
+* [The BEMA Podcast, Episode 17: A God Who Hears the Cry](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000380710073)

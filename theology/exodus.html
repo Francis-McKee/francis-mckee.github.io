@@ -1,0 +1,29 @@
+---
+layout: default
+title: Exodus
+permalink: /theology/exodus/
+---
+<link rel="stylesheet" href="/css/category.css" type="text/css">
+
+<i class="fa-solid fa-arrow-left"></i> <a href="{{ '/categories/theology/' | relative_url }}"> Back to theology category </a>
+
+
+<h1> Exodus </h1>
+
+<ul>
+
+{% assign exodus_posts = site.posts | sort: "date" %}
+
+{% for post in exodus_posts %}
+
+{% if post.path contains "_posts/theology/exodus/" %}
+
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}
+</li>
+
+{% endif %}
+
+{% endfor %}
+
+</ul>

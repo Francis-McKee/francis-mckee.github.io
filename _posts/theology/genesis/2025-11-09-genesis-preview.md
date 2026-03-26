@@ -8,9 +8,9 @@ Genesis (Preview)
 
 <br>
 
-**Date:** Prescientific Age  
+**Date:** 1446-1406 BC  
 **Author:** Moses  
-**Intended Audience:** Ancient Israelites  
+**Audience:** Ancient Israelites  
 
 It has been suggested that Moses made use of certain documents and oral stories to write the book. The "looking over" or "familiarity with" other writings is not unheard of among the biblical writers, nor is it contrary to biblical inspiration. However, it must be remembered that the actual writing of the Book of Genesis was done by Moses, under the inspiration of the Holy Spirit.
 
@@ -22,3 +22,4 @@ Main Sections of Genesis:
 
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
+2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
