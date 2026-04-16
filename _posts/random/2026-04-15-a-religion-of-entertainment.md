@@ -5,7 +5,7 @@ title: A Religion of Entertainment
 date: 2026-04-15
 comments: true
 ---
-"There is no doubt, in other words, that religion can be made entertaining. The question is, By doing so, do we destroy it as an 'authentic object of culture'? And does the popularity of a religion that employs the full resources of vaudeville drive more traditional religious conceptions into manic and trivial displays?""
+"There is no doubt, in other words, that religion can be made entertaining. The question is, By doing so, do we destroy it as an 'authentic object of culture'? And does the popularity of a religion that employs the full resources of vaudeville drive more traditional religious conceptions into manic and trivial displays?"
 
 ...
 
