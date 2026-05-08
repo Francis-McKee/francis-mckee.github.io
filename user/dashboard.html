@@ -3,32 +3,27 @@ title: Dashboard
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Dashboard </title>
-  <link rel="stylesheet" href="/user/dashboard.css">
-</head>
-<body>
+<link rel="stylesheet" href="/user/dashboard.css">
 
-  <div id="dashboard-container">
-    <h1> Welcome to Your Dashboard </h1>
-    <br>
+<script type="module" src="/user/dashboard.js" defer></script>
 
-    <div id="user-info">
-      <h2> Account Settings </h2>
-      <p> Email: <span id="user-email"></span> </p>
-      <button id="logout-button"> Log Out </button>
-    </div>
+<div id="dashboard-container">
+  <h1> Welcome to Your Dashboard </h1>
+  
+  <br>
 
-    <!-- message container -->
-    <div id="email-change-message" class="message" aria-live="polite"></div>
+  <div id="user-info">
+    <h2> Account Settings </h2>
+    <p> Email: <span id="user-email"></span> </p>
+    <button id="logout-button"> Log Out </button>
+  </div>
 
-    <!-- Change Email form -->
-    <div id="email-change-form">
-      <h2> Change Your Account Email </h2>
+  <!-- message container -->
+  <div id="email-change-message" class="message" aria-live="polite"></div>
+
+  <!-- Change Email form -->
+  <div id="email-change-form">
+    <h2> Change Your Account Email </h2>
       <form id="change-email-form" autocomplete="off">
         <label for="new-email"> New Email: </label>
         <input type="email" id="new-email" placeholder="Enter your new email" required autocomplete="off">
@@ -38,17 +33,13 @@ layout: default
         
         <button type="submit"> Change Email </button>
       </form>
-    </div>
+  </div>
     
 
-    <div id="protected-content">
-      <h2> Protected Content </h2>
-      <!-- Add the content that you want to protect here -->
-      <p> Add the content that you want to protect here. </p>
-    </div>
-
+  <div id="protected-content">
+    <h2> Protected Content </h2>
+    <!-- Add the content that you want to protect here -->
+    <p> Add the content that you want to protect here. </p>
   </div>
 
-  <script type="module" src="/user/dashboard.js" defer></script>
-</body>
-</html>
+</div>
