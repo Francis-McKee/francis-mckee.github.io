@@ -10,3 +10,10 @@ a {
 a:hover {
     color: #555;
 }
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+
+    ul {
+        line-height: 1.3; /* adding more space between post links on mobile for more accurate selection */
+    }
+}

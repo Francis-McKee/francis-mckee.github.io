@@ -67,6 +67,14 @@ mark {
     width: 60%;
 }
 
+.posts h2 {
+    margin-bottom: 0px; /* removes default margin-bottom of h2 element */
+}
+
+.posts p:first-of-type {
+    margin-top: 10px; /* lowers margin-top of first p (title, not date) from 16 to 10px for closer spacing */
+}
+
 .tags {
     display: inline-block;
     text-decoration: underline;
