@@ -102,7 +102,7 @@ mark {
     }
 }
 
-@media screen and (max-width: 425px) { /* mobile phones only - no tablets */
+@media screen and (max-width: 480px) { /* mobile phones only - no tablets */
     .category-links {
         display: flex;
         flex-wrap: wrap;

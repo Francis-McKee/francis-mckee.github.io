@@ -46,7 +46,7 @@ table {
   }
 }
 
-@media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
+@media screen and (max-width: 480px) { /* mobile phone devices only - no tablets */
   .post-nav {
     gap: 100px;
   }

@@ -75,7 +75,7 @@ h1 {
     color: #555;
 }
 
-@media screen and (max-width: 425px) { /* mobile devices only - no tablets */
+@media screen and (max-width: 480px) { /* mobile devices only - no tablets */
 
     .products,
     .services,

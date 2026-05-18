@@ -209,7 +209,7 @@ footer .copy {
   }
 }
 
-@media screen and (max-width: 425px) { /* mobile phone devices only - no tablets */
+@media screen and (max-width: 480px) { /* mobile phone devices only - no tablets */
 
   main ul {
     padding-inline-start: 20px; /* this removes half of the default padding of 40px for our uls */
