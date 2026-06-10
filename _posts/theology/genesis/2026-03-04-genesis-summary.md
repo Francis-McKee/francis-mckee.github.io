@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Genesis (Summary)
+permalink: /blog/genesis/summary
 date: 2026-03-04
 comments: true
 ---

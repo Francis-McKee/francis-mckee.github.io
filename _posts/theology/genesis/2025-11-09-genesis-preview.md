@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Genesis (Preview)
+permalink: /blog/genesis/preview
 date: 2025-11-09
 ---
 Genesis (Preview)

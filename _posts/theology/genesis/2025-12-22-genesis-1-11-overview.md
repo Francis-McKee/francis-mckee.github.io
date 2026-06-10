@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Genesis 1-11 (Overview)
+permalink: /blog/genesis/1-11/overview
 date: 2025-12-22
 comments: true
 ---

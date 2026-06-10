@@ -44,22 +44,32 @@ layout: default
 <br>
 <br>
 
-{% assign path_parts = page.path | split: "/" %}
-{% assign book = path_parts[2] %}
+<!-- Extract the book name directly from the clean URL -->
+{% assign url_parts = page.url | split: "/" %}
+{% assign book = url_parts[2] %}
 
+<!-- Group and sort posts belonging to this book -->
 {% assign book_posts = site.posts 
-  | where_exp: "post", "post.path contains book" 
+  | where_exp: "post", "post.url contains book" 
   | sort: "date" %}
 
 {% for post in book_posts %}
   {% if post.url == page.url %}
+    {% assign current_index = forloop.index0 %}
 
-    {% assign prev_index = forloop.index0 | minus: 1 %}
-    {% assign next_index = forloop.index0 | plus: 1 %}
+    <!-- Previous post logic -->
+    {% if current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign prev_post = book_posts[prev_index] %}
+    {% else %}
+      {% assign prev_post = nil %} <!-- prevents the -1 loop-back bug -->
+    {% endif %}
 
-    {% assign prev_post = book_posts[prev_index] %}
+    <!-- Next post logic -->
+    {% assign next_index = current_index | plus: 1 %}
     {% assign next_post = book_posts[next_index] %}
 
+    {% break %}
   {% endif %}
 {% endfor %}
 

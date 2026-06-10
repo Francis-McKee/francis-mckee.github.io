@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Romans (Summary)
+permalink: /blog/romans/summary
 date: 2026-05-26
 comments: true
 ---

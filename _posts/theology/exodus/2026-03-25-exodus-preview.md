@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Exodus (Preview)
+permalink: /blog/exodus/preview
 date: 2026-03-25
 ---
 Exodus (Preview)

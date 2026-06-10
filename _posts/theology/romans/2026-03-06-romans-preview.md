@@ -2,6 +2,7 @@
 layout: post
 category: theology
 title: Romans (Preview)
+permalink: /blog/romans/preview
 date: 2026-03-06
 ---
 Romans (Preview)
