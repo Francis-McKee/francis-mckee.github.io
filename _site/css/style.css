@@ -164,7 +164,7 @@ footer .copy {
   color: #9C8B7E;
 }
 
-@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
+@media screen and (max-width: 800px) { /* mobile devices & tablets - screen width <= 768px */
 
   .topnav a:not(.icon) { /* all topnav links not with class 'icon' (all except hamburger icon) do not display before icon pressed */
     display: none;
