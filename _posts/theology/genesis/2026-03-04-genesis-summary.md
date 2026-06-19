@@ -27,7 +27,7 @@ I also want to keep track of some areas of interest for further study.
 
 Areas of Further Study:
 * [Genesis 49 - Israel Blesses His Sons]({{ '/blog/genesis/49' | relative_url }})
-* Why does the name of Israel switch back to Jacob after his name was changed?
+* Why does the name of Israel occasionally switch back to Jacob after his name was changed?
 
 ## Additional Resources
 
