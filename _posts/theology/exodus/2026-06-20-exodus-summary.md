@@ -3,7 +3,7 @@ layout: post
 category: theology
 title: Exodus (Summary)
 permalink: /blog/exodus/summary
-date: 2026-06-19
+date: 2026-06-20
 comments: true
 ---
 Exodus (Summary)
@@ -17,6 +17,7 @@ Exodus (Summary)
 * God is faithful even when we are not. Our sin will not nullify the plans or actions of God. God desires to partner with people, all of whom are imperfect.
 
 ## Further Study
+* Why did it take 10 plagues to free the Israelites from slavery? Surely He could have freed them immediately if He wanted to. Is there any significance to this number? And why did the Lord harden Pharaoh's heart? 
 * If the book of Exodus is both historical and allegorical, then does Joseph have a deeper part to play in the story of the Exodus?
 * Why does the Lord say that no one can see His face and live? Does the word "face" mean a physical human face? The Lord says this after speaking "face to face" with Moses in Exodus 33.
 * The Lord wrote the first set of tablets, but he commanded Moses to write the second set of tablets. Is this change in physical authorship important?
