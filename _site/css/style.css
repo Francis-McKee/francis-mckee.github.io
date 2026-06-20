@@ -66,6 +66,7 @@ html, body {
 main {
   background-color: #D5D2CD; /* main background color, doesnt effect wrapper, topnav, or footer */
   padding-left: 10px;
+  padding-right: 10px;
   flex: 1;
 }
 
