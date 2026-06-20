@@ -17,4 +17,5 @@ If these notes have been helpful and you'd like to support this work, you can do
 * [Genesis]({{ "/theology/genesis/" | relative_url }})
 * [Exodus]({{ "/theology/exodus/" | relative_url }})
 * [Romans]({{ "/theology/romans/" | relative_url }})
+* [Galatians]({{ "/theology/galatians/" | relative_url }})
 

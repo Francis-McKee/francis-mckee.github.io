@@ -1,0 +1,29 @@
+---
+layout: default
+title: Galatians
+permalink: /theology/galatians/
+---
+<link rel="stylesheet" href="/css/category.css" type="text/css">
+
+<i class="fa-solid fa-arrow-left"></i> <a href="{{ '/categories/theology/' | relative_url }}"> Back to theology category </a>
+
+
+<h1> Galatians </h1>
+
+<ul>
+
+    {% assign galatians_posts = site.posts | sort: "date" %}
+
+    {% for post in galatians_posts %}
+
+        {% if post.path contains "_posts/theology/galatians/" %}
+
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}
+            </li>
+
+        {% endif %}
+
+    {% endfor %}
+
+</ul>
