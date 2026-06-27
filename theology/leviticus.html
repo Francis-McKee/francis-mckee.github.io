@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Genesis
-permalink: /theology/genesis/
+title: Leviticus
+permalink: /theology/leviticus/
 ---
 <link rel="stylesheet" href="/css/category.css" type="text/css">
 
 <i class="fa-solid fa-arrow-left"></i> <a href="{{ '/categories/theology/' | relative_url }}"> Back to theology category </a>
 
 
-<h1> Genesis </h1>
+<h1> Leviticus </h1>
 
 <ul>
 
-    {% assign genesis_posts = site.posts | sort: "date" %}
+    {% assign leviticus_posts = site.posts | sort: "date" %}
 
-    {% for post in genesis_posts %}
+    {% for post in leviticus_posts %}
 
-        {% if post.path contains "_posts/theology/genesis/" %}
+        {% if post.path contains "_posts/theology/leviticus/" %}
 
             <li>
                 <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}

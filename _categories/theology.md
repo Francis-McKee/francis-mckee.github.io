@@ -14,8 +14,9 @@ There are no advertisements on these posts, and I will link to my sources whenev
 If these notes have been helpful and you'd like to support this work, you can do so [here](https://buymetea.org/francis_mckee). There is no obligation, and all content will remain freely available.
 
 ## Books
-* [Genesis]({{ "/theology/genesis/" | relative_url }})
-* [Exodus]({{ "/theology/exodus/" | relative_url }})
-* [Romans]({{ "/theology/romans/" | relative_url }})
-* [Galatians]({{ "/theology/galatians/" | relative_url }})
+* [Genesis]({{ '/theology/genesis/' | relative_url }})
+* [Exodus]({{ '/theology/exodus/' | relative_url }})
+* [Leviticus]({{ '/theology/leviticus/' | relative_url }})
+* [Romans]({{ '/theology/romans/' | relative_url }})
+* [Galatians]({{ '/theology/galatians/' | relative_url }})
 

@@ -12,18 +12,18 @@ permalink: /theology/exodus/
 
 <ul>
 
-{% assign exodus_posts = site.posts | sort: "date" %}
+    {% assign exodus_posts = site.posts | sort: "date" %}
 
-{% for post in exodus_posts %}
+    {% for post in exodus_posts %}
 
-{% if post.path contains "_posts/theology/exodus/" %}
+        {% if post.path contains "_posts/theology/exodus/" %}
 
-<li>
-<a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}
-</li>
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}
+            </li>
 
-{% endif %}
+        {% endif %}
 
-{% endfor %}
+    {% endfor %}
 
 </ul>
