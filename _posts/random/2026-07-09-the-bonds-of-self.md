@@ -15,6 +15,8 @@ comments: true
 
 "Not egotism but self-reflection is the enemy. This is because being in the presence of God [or, in the Spirit], by definition, requires all our awareness - especially and including that part of awareness we ordinarily set just over our shoulder to tell the rest of us that it's us. Self reflection, in other words, prohibits awareness of God."
 
+<br>
+
 Quotes taken from pp. 103 and 106 of *God Was in This Place & I, i Did Not Know* (2016), by Rabbi Lawrence Kushner. [Buy here](https://a.co/d/06q51HBm)
 
 [Parentheticals added by me]
