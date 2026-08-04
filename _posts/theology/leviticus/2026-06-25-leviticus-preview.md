@@ -27,8 +27,6 @@ In other ancient religions, such as ancient Egypt, priests kept their laws and r
 
 All people of Israel are to be a "kingdom of priests". This does not say that Israel is to be a kingdom that has priests, but a kingdom **of** priests - meaning the entire kingdom is meant to be priests.
 
-The usual Hebrew word for "sacrifice" is *korban*, meaning "approaching" or "drawing closer to". While the world was created by God as a place for humans to dwell, the people of Israel created the Tabernacle so they would know that God dwelt among them. In the word *korban* we get a better sense of the reason for sacrifices in ancient Israel. We can understand the idea of sacrifice as a way of "approaching" or "drawing closer to" the Lord.
-
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
