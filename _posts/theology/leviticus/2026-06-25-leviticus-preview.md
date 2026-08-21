@@ -27,7 +27,14 @@ In other ancient religions, such as ancient Egypt, priests kept their laws and r
 
 All people of Israel are to be a "kingdom of priests". This does not say that Israel is to be a kingdom that has priests, but a kingdom **of** priests - meaning the entire kingdom is meant to be priests.
 
+Roles of a priest:
+* Put God on display (be different from the world)
+* Help people navigate their atonement (using the law as a guide but pointing them to Christ)
+* Intercede on behalf of others (stand in the gap between God and the world)
+* Distribute resources to those in need (charity and service)
+
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
 3. [The Torah Portion-by-Portion by Rabbi Seymour Rossel (2007)](https://a.co/d/boaYc5X)
+4. [The BEMA Podcast, Episode 25: A Kingdom of What?](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000383325175)
