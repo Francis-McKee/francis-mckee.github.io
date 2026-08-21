@@ -15,6 +15,8 @@ Leviticus (Preview)
 
 The purpose of the Book of Leviticus is to show the calling of God's people (particularly the Levites) to minister before Him. The book serves as the moral and ethical law for the Israelites, containing civil, sanitary, ceremonial, moral, and religious regulations. While the Tabernacle was constructed in the book of Exodus, it is here in the book of Leviticus that the people of Israel learn what to do with it.
 
+The Israelites are unique in history in that they received their laws before their entry into the land. Normally, first comes the land, and only later, the laws. In the case of the Israelites, first came the laws, and only afterwards, a generation later, the land.
+
 The Torah itself (Genesis to Deuteronomy) is structured like a chiasm with the climax in the middle. Leviticus is the central book of the Torah, making it the most important book of the five. It is no accident that for many centuries, it was customary to make it the first book to be taught to Jewish children when they began their education.
 
 While the book translated in English is called "Leviticus", the Hebrew name for the book is "Vayikra", meaning "He called", the first words of the book in Hebrew. All Hebrew names for books of the Bible are taken from the first significant word/s of their respective books.
