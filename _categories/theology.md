@@ -19,4 +19,4 @@ If these notes have been helpful and you'd like to support this work, you can do
 * [Leviticus]({{ '/theology/leviticus/' | relative_url }})
 * [Romans]({{ '/theology/romans/' | relative_url }})
 * [Galatians]({{ '/theology/galatians/' | relative_url }})
-
+* [Hebrews]({{ '/theology/hebrews/' | relative_url }})

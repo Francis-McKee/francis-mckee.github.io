@@ -1,0 +1,29 @@
+---
+layout: default
+title: Hebrews
+permalink: /theology/hebrews/
+---
+<link rel="stylesheet" href="/css/category.css" type="text/css">
+
+<i class="fa-solid fa-arrow-left"></i> <a href="{{ '/categories/theology/' | relative_url }}"> Back to theology category </a>
+
+
+<h1> Hebrews </h1>
+
+<ul>
+
+    {% assign hebrews_posts = site.posts | sort: "date" %}
+
+    {% for post in hebrews_posts %}
+
+        {% if post.path contains "_posts/theology/hebrews/" %}
+
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> {% if post.description %} - {{ post.description }} {% endif %}
+            </li>
+
+        {% endif %}
+
+    {% endfor %}
+
+</ul>
