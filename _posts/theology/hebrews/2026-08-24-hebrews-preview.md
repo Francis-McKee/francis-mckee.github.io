@@ -9,9 +9,9 @@ Hebrews (Preview)
 
 <br>
 
-**Date:** 60-95 AD
-**Author:** Unknown (Hellenistic Jewish Christian)
-**Audience:** Jewish Christians
+**Date:** 60-95 AD  
+**Author:** Unknown (Hellenistic Jewish Christian)  
+**Audience:** Jewish Christians  
 
 The book of Hebrews is divided into two major sections:
 1. Doctrinal issues (Hebrews 1-10:18)
