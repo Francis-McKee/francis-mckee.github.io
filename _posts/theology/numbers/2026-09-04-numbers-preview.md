@@ -27,6 +27,8 @@ Ancient Eastern Weddings:
 
 If God's covenant with His chosen people can be compared to a wedding (see [Exodus 19]({{ '/blog/exodus/19' | relative_url }})), the book of Numbers is considered to be a "desert honeymoon" for God's people.
 
+> Jeremiah 2:2 (NIV) - "...This is what the Lord says: I remember the devotion of your youth, how as a bride you loved me and followed me through the wilderness, through a land not sown."
+
 The first word in the Hebrew text means "in the wilderness", which appropriately gives us the setting for the events of this book. The Book of Numbers covers a large portion of the forty years that Israel spent in the wilderness after their exile in Egypt. 
 
 When the people were obedient to God, they enjoyed His blessing and protection, but their disobedience brought His judgement. Despite the signs and wonders that God performed on Israel's behalf, the people were ready to return to Egypt on several occasions because of their unbelief. It was easier to get Israel out of Egypt than to get Egypt out of the Israelites! 
