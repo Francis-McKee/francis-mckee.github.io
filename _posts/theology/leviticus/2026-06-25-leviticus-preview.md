@@ -13,6 +13,20 @@ Leviticus (Preview)
 **Author:** Moses  
 **Audience:** Ancient Israelites
 
+Ancient Eastern Weddings:
+1. Betrothal (Cup of the Covenant) - Genesis 12
+2. Groom leaves to prepare the house - Exodus 1-12
+3. Arrival of the bridegroom - Exodus 12
+4. Bride is consecrated - Exodus 19:10-15
+5. Shofar is sounded (bride's entrance) - Exodus 19:16
+6. Gather under the *chuppah* - Exodus 19:17
+7. Presentation of the *ketubah* - Exodus 20-23
+8. Exchange of wedding gifts - Exodus 25-40, Leviticus
+9. Consummation of the marriage - Exodus 40
+10. "Honeymoon" year (Deuteronomy 24:5)
+
+If God's covenant with His chosen people can be compared to a wedding (see [Exodus 19]({{ '/blog/exodus/19' | relative_url }})), the book of Leviticus is considered to be a part of the wedding gifts exchanged between God and the people. The law in Leviticus is not an oppresive set of rules we must follow, but a gift that allows us to be in right relationship with the God who loves us.
+
 The purpose of the Book of Leviticus is to show the calling of God's people (particularly the Levites) to minister before Him. The book serves as the moral and ethical law for the Israelites, containing civil, sanitary, ceremonial, moral, and religious regulations. While the Tabernacle was constructed in the book of Exodus, it is here in the book of Leviticus that the people of Israel learn what to do with it.
 
 The Israelites are unique in history in that they received their laws before their entry into the land. Normally, first comes the land, and only later, the laws. In the case of the Israelites, first came the laws, and only afterwards, a generation later, the land.
