@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: Making Eye Contact with God
 date: 2026-09-23
 comments: true

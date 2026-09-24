@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: The Problem of Space and Time
 date: 2026-03-19
 comments: true

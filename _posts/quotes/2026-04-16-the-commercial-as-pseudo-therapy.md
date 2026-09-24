@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: The Commercial as Pseudo-Therapy
 date: 2026-04-16
 comments: true

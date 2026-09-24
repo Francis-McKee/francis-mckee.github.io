@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: To Engage the Written Word
 date: 2026-03-18
 comments: true

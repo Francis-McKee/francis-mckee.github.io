@@ -33,8 +33,9 @@ The first word in the Hebrew text means "in the wilderness", which appropriately
 
 When the people were obedient to God, they enjoyed His blessing and protection, but their disobedience brought His judgement. Despite the signs and wonders that God performed on Israel's behalf, the people were ready to return to Egypt on several occasions because of their unbelief. It was easier to get Israel out of Egypt than to get Egypt out of the Israelites! 
 
-During this forty year period of time in the wilderness, God removed the generation that failed to trust Him, molding the new generation into a unified nation, prepared to conquer the land He had promised them.
+This is one of the key themes of Numbers - that even when slaves are given freedom, they continue to have the mindset of slaves, which is why the generation that left Egypt was not yet ready to enter the land. During this forty year period of time in the wilderness, God removed the generation that failed to trust Him, molding the new generation into a unified nation, prepared to conquer the land He had promised them.
 
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
+3. [Covenant & Conversation, Volume 4: Numbers, The Wilderness Years](https://a.co/d/0aFan1cm)

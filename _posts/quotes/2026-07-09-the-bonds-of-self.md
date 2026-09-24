@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: The Bonds of Self
 date: 2026-07-09
 comments: true

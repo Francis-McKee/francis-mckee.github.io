@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: Being One with God
 date: 2026-06-20
 comments: true

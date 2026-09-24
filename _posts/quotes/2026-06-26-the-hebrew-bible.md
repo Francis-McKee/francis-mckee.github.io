@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: The Hebrew Bible
 date: 2026-06-26
 ---

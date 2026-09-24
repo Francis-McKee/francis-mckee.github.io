@@ -1,6 +1,6 @@
 ---
 layout: post
-category: random
+category: quotes
 title: A Religion of Entertainment
 date: 2026-04-15
 comments: true
