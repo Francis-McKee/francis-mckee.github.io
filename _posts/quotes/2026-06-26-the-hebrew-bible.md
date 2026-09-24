@@ -59,3 +59,11 @@ Historical:
 - Daniel
 - Ezra-Nehemiah
 - Chronicles
+
+<br>
+
+"The Torah is God's word to human beings. Nevi'im represents God's word through human beings. Ketuvim are the words of human beings inspired by *ruah hakodesh*, the 'holy spirit', to God."
+
+<br>
+
+Quote taken from p. 66 of *Covenant & Conversation - Numbers: The Wilderness Years* (2017), by Rabbi Jonathan Sacks. [Buy here](https://a.co/d/0aFan1cm)
