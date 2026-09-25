@@ -33,6 +33,8 @@ The Torah itself (Genesis to Deuteronomy) is structured like a chiasm with the c
 
 While the book translated in English is called "Leviticus", the Hebrew name for the book is "Vayikra", meaning "He called", the first words of the book in Hebrew. All Hebrew names for books of the Bible are taken from the first significant word/s of their respective books.
 
+## A Kingdom of Priests
+
 > Leviticus 1:1-2 - "And the Lord called unto Moses, and spake unto him out of the tabernacle of the congregation, saying, Speak unto the children of Israel..."
 
 In other ancient religions, such as ancient Egypt, priests kept their laws and rituals secret from the people, and thus they were thought by the people to have magic powers. But here in Leviticus, the Lord commands Moses to speak to all the Israelite people. The priestly laws are given to all of us. 
