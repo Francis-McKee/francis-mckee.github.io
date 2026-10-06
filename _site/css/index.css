@@ -53,23 +53,6 @@
     background-color: #9C8B7E;
 }
 
-.programming-block {
-    display: inline-block;
-    place-items: center;
-    align-content: center;
-
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-    
-    color: black;
-    background-color: #9C8B7E;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #9C8B7E;
-    border-radius: 15px;
-}
-
 .testimonial-block {
     display: grid;
     place-items: center;
