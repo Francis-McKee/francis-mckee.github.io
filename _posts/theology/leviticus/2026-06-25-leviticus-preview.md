@@ -52,5 +52,5 @@ Roles of a priest:
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
-3. [The Torah Portion-by-Portion by Rabbi Seymour Rossel (2007)](https://a.co/d/boaYc5X)
+3. [Rabbi Seymour Rossel, *The Torah Portion-by-Portion* (2007)](https://a.co/d/boaYc5X)
 4. [The BEMA Podcast, Episode 25: A Kingdom of What?](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000383325175)
