@@ -46,4 +46,4 @@ Not so in Judaism. Because the law was given to the people in the wilderness bef
 ## References
 1. The Hebrew - Greek Key Study Bible (KJV Version)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
-3. [Covenant & Conversation, Volume 4: Numbers, The Wilderness Years](https://a.co/d/0aFan1cm)
+3. [Rabbi Jonathan Sacks, *Covenant & Conversation - Numbers: The Wilderness Years* (2017)](https://a.co/d/0aFan1cm)
