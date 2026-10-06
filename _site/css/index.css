@@ -1,5 +1,9 @@
 /* index.html CSS */
 
+h2 {
+    text-align: center;
+}
+
 .home-block {
     margin: auto;
     margin-top: 10px;
@@ -8,6 +12,8 @@
     display: block;
     text-align: center;
     align-items: center;
+
+    border-top: solid 1px #9C8B7E;
 }
   
 .home-block p {
@@ -53,23 +59,6 @@
     background-color: #9C8B7E;
 }
 
-.testimonial-block {
-    display: grid;
-    place-items: center;
-    align-content: center;
-
-    margin: auto;
-    margin-top: 10px;
-    width: 60%;
-    
-    color: black;
-    background-color: #9C8B7E;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #9C8B7E;
-    border-radius: 15px;
-}
-
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
 
     .am-img {
@@ -87,7 +76,10 @@
     }
 
     .testimonial-block {
+        margin: auto;
+        margin-top: 10px;
         width: 80%;
+        display: block;
     }
 
 }
