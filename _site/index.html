@@ -56,7 +56,7 @@
   </head>
   <body>
     <div class="wrapper">
-        <div class="topnav">
+        <nav>
     <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
         <i class="fa fa-bars"></i> <!-- FontAwesome hamburger icon-->
     </a>
@@ -66,7 +66,7 @@
     <a href="/blog.html"> Blog </a>
     <a href="/shop.html"> Shop </a>
     <a href="/contact.html"> Contact </a>
-</div>
+</nav>
         <br>
         <main aria-label="Content">
             <meta name="keywords" content="Portfolio, Website, Student, Computer Science, Programming">
@@ -75,20 +75,22 @@
 <link rel="stylesheet" href="/css/index.css" type="text/css">
 
 <div class="header">
-  <img src="/images/about_me3.jpeg" class="am-img">
+  <img src="/images/about_me3.jpeg" class="am-img" alt="Photo of Francis McKee">
 </div>
 
-<div class="home-block" style="border-top: none;">
+<section style="border-top: none;">
   <h1> Hi, my name is Francis McKee. </h1>
   <p> <i> Founder, Francis N. McKee & Associates, LLC | Contract Web Developer </i> </p>
-  <a href="https://github.com/Francis-McKee" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl"></i></a>
-  <a href="https://www.linkedin.com/in/francis-mckee-7338311a6/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-  <a href="https://tank-games.itch.io" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io fa-2xl"></i></a>
-</div>
+  <div style="margin-top: 26px;">
+    <a href="https://github.com/Francis-McKee" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github fa-2xl"></i></a>
+    <a href="https://www.linkedin.com/in/francis-mckee-7338311a6/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+    <a href="https://tank-games.itch.io" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io fa-2xl"></i></a>
+  </div>
+</section>
 
 <br>
 
-<div class="home-block">
+<section>
   <p>
     I help small businesses establish and grow their online presence through professional websites, local business listings, and lead-generation solutions. 
     By combining web development, design, and digital marketing principles, I create websites that not only look professional but also help businesses generate leads and attract customers.
@@ -101,11 +103,11 @@
   <a href="/contact.html" target="_blank" rel="noopener noreferrer"> 
     <button> Contact Me </button>
   </a>
-</div>
+</section>
 
 <br>
     
-<div class="home-block">
+<section>
   <h2> Services: </h2>
   <p> Custom Websites </p>
   <p> Landing Pages </p>
@@ -113,23 +115,36 @@
   <p> Apple Business Connect Setup </p>
   <p> Lead Generation Solutions </p>
   <p> Website Maintenance & Support </p>
-</div>
+</section>
 
 <br>
     
-<div class="home-block">
+<section>
   <h2> Results: </h2>
   
-  <h3> 20,000+ </h3>
+  <h3> 26,000+ </h3>
   <p> Website Views Generated </p>
 
-  <h3> 70,000+ </h3>
+  <h3> 82,000+ </h3>
   <p> Tracked User Interactions </p>
-</div>
+
+  <br>
+
+  <p> <i> *Tracking 3 client websites since April 1, 2025 </i> </p>
+</section>
+
+<section>
+  <h2> Testimonials: </h2>
+
+  <div class="testimonial">
+    <p> "He [Francis] listened carefully to my vision, communicated clearly throughout the process, and translated my ideas into a clean, functional, and visually appealing website." </p>
+    <p> <i> RockSoul Creative </i> </p>
+  </div>
+</section>
         </main>
         <br>
         <footer>
-    <div class="nav">
+    <div class="navigation">
       <ul>
         <li> <a href="/index.html"> Home </a> </li>
         <li> <a href="/resume.html"> Resume </a> </li>
@@ -162,8 +177,8 @@
 
   // Toggle menu on mobile devices
   function toggleMenu() {
-      var topnav = document.querySelector(".topnav");
-      topnav.classList.toggle("responsive");
+      var nav = document.querySelector("nav");
+      nav.classList.toggle("responsive");
   }
 
 </script>

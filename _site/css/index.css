@@ -4,7 +4,7 @@ h2 {
     text-align: center;
 }
 
-.home-block {
+section {
     margin: auto;
     margin-top: 10px;
     width: 60%;
@@ -16,10 +16,29 @@ h2 {
     border-top: solid 1px #9C8B7E;
 }
   
-.home-block p {
+section p {
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.testimonial {
+    display: grid;
+    place-items: center;
+    align-content: center;
+
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    
+    color: black;
+    background-color: #9C8B7E;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #9C8B7E;
+    border-radius: 15px;
+
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 }
 
 .am-img { /* about me image */
@@ -33,17 +52,17 @@ h2 {
 }
 
 /* Icons */
-.home-block a i {
+section a i {
     margin-right: 10px;
     color: #555;
     transition: color 0.3s ease;
 }
 
-.home-block a i:hover {
+section a i:hover {
     color: #9C8B7E;
 }
 
-.home-block a button { /* 'Request a Quote' button */
+section a button { /* 'Request a Quote' button */
     width: 150px;
     background-color: #555;
     color: white;
@@ -55,7 +74,7 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-.home-block a button:hover {
+section a button:hover {
     background-color: #9C8B7E;
 }
 
@@ -68,14 +87,14 @@ h2 {
         max-height: 275px;
     }
     
-    .home-block {
+    section {
         margin: auto;
         margin-top: 10px;
         width: 80%;
         display: block;
     }
 
-    .testimonial-block {
+    .testimonial {
         margin: auto;
         margin-top: 10px;
         width: 80%;

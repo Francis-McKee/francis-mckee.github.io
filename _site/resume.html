@@ -56,7 +56,7 @@
   </head>
   <body>
     <div class="wrapper">
-        <div class="topnav">
+        <nav>
     <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
         <i class="fa fa-bars"></i> <!-- FontAwesome hamburger icon-->
     </a>
@@ -66,7 +66,7 @@
     <a href="/blog.html"> Blog </a>
     <a href="/shop.html"> Shop </a>
     <a href="/contact.html"> Contact </a>
-</div>
+</nav>
         <br>
         <main aria-label="Content">
             <meta name="keywords" content="Resume, Portfolio, Student, Bachelor's, Certificate">
@@ -123,7 +123,7 @@
                 <p> Designated trainer for the newly onboarded staff </p>
             </li>
         </ul>
-        <p> <a href="https://www.facebook.com/groups/491535181729324/permalink/1448152209400945/?rdid=mOoX7zrsuAP1wuCv&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1AqYqCfziL%2F" target="_blank" rel="noopener noreferrer"> Facebook Review </a> </p>
+        <p> <a href="https://www.facebook.com/groups/491535181729324/permalink/1448152209400945/?rdid=mOoX7zrsuAP1wuCv&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1AqYqCfziL%2F" target="_blank" rel="noopener noreferrer"> Facebook Review Thread </a> </p>
     </li>
     <li>
         <p> <b> My Ground Accountants </b> </p>
@@ -197,15 +197,34 @@
 <h1> Volunteer Work: </h1>
 <ul>
     <li>
+        <p> <b> Every Nation </b> </p>
+        <p> August 2026 to Present </p>
+        <ul>
+            <li>
+                <p> Co-lead a Christian Bible study on the campus of East Carolina University (ECU) every Wednesday night throughout the Fall 2026 semester. </p>
+            </li>
+            <li>
+                <p> Serve bi-weekly on the Hospitality Team as a greeter for Thursday night services on campus. </p>
+            </li>
+        </ul>
+    </li>
+    <li>
         <p> <b> Food Bank of Central & Eastern North Carolina (CENC) </b> </p>
-        <p> 60+ hours of 25+ sessions in 2 years </p>
-        <p> Certificate of Recognition for "Exemplary Volunteerism" - August 2023 </p>
+        <p> July 2023 to September 2025 </p>
+        <ul>
+            <li>
+                <p> Totaled 64 hours of volunteer service over 28 sessions. </p>
+            </li>
+            <li>
+                <p> Received a Certificate of Recognition for "Exemplary Volunteerism" in August 2023. </p>
+            </li>
+        </ul>
     </li>
 </ul>
         </main>
         <br>
         <footer>
-    <div class="nav">
+    <div class="navigation">
       <ul>
         <li> <a href="/index.html"> Home </a> </li>
         <li> <a href="/resume.html"> Resume </a> </li>
@@ -238,8 +257,8 @@
 
   // Toggle menu on mobile devices
   function toggleMenu() {
-      var topnav = document.querySelector(".topnav");
-      topnav.classList.toggle("responsive");
+      var nav = document.querySelector("nav");
+      nav.classList.toggle("responsive");
   }
 
 </script>
