@@ -9,9 +9,9 @@ Another practical issue is that notebooks fill up quickly and are not easy to ca
 
 ## Attribution
 
-There are no advertisements on these posts, and I will link to my sources whenever possible at the bottom of each post. I do not currently earn income from Amazon affiliate links or any similar program in these posts. Please [contact me](https://fnmckee.com/contact.html) if there is anything I can do to better credit my sources. I take this very seriously and have no desire to take credit for the work of others as if it were my own.
+This category functions as a content curation library from my personal studies. The posts are made up of content from various external theological resources, with additional content written by me to fill in the gaps. I will link to my sources whenever possible at the bottom of each post. Please [contact me](/contact.html) if there is anything I can do to better credit my sources. I take this very seriously and have no desire to take credit for the work of others as if it were my own.
 
-If these notes have been helpful and you'd like to support this work, you can do so [here](https://buymetea.org/francis_mckee). There is no obligation, and all content will remain freely available.
+There are no advertisements, and I do not earn income from Amazon affiliate links or any similar referral program in these posts. If these notes have been helpful and you'd like to support this work, you can do so [here](https://buymeacoffee.com/francismckee). There is no obligation, and all content will remain freely available.
 
 ## Books
 * [Genesis]({{ '/theology/genesis/' | relative_url }})
