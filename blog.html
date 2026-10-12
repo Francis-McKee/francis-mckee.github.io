@@ -8,20 +8,25 @@ title: Blog
 
 <link rel="stylesheet" href="/css/blog.css" type="text/css">
 
-<h1><a href="/categories.html">Categories</a></h1>
+<h1> Categories: </h1>
 <ul class="category-links">
   {% assign sorted_categories = site.categories | sort %}
   {% for category in sorted_categories %}
     <li> <a href="{{ category.url }}">{{ category.name }}</a> </li>
   {% endfor %}
 </ul>
+
 <br>
 <br>
+
 <div class="search">
   <input type="text" id="search-input" placeholder="Search posts...">
+  <div id="book-filter"></div>
   <div id="search-results"></div>
 </div>
+
 <br>
+
 <div id="latest-posts">
   <h1> Latest Posts: </h1>
   <ul class="posts">

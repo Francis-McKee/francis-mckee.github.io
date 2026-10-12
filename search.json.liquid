@@ -2,13 +2,21 @@
 layout: null
 permalink: /search.json
 ---
+
 [
-{% for post in site.posts %}
-{
-  "title": {{ post.title | jsonify }},
-  "url": {{ post.url | jsonify }},
-  "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
-  "content": {{ post.content | strip_html | normalize_whitespace | jsonify }}
-}{% unless forloop.last %},{% endunless %}
-{% endfor %}
+  {% for post in site.posts %}
+    {% assign path_parts = post.path | split: "/" %}
+    {% assign book = "" %}
+    {% if path_parts[1] == "theology" and path_parts.size > 3 %}
+      {% assign book = path_parts[2] %}
+    {% endif %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | jsonify }},
+      "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "content": {{ post.content | strip_html | normalize_whitespace | jsonify }},
+      "book": {{ book | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
 ]
+
