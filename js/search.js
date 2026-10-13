@@ -239,10 +239,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const title = highlightTerm(post.title, query);
       const url = escapeHTML(post.url);
 
-      return `<div>
-        <a href="${url}"><strong>${title}</strong></a>
-        <div>${snippet}</div>
-      </div>`;
+      return `<br>
+              <div>
+                <a href="${url}"><strong>${title}</strong></a>
+                <div>${snippet}</div>
+              </div>`;
     }).join("");
   }
 
