@@ -19,5 +19,5 @@ Main Sections of Romans:
 * General principles of the Christian life to be aware of and put into practice (Chapters 12-15)
 
 ## References
-1. The Hebrew - Greek Key Study Bible (KJV Version)
+1. [Spiros Zodhiates (Editor), *The Hebrew - Greek Key Study Bible: King James Version* (2008)](https://a.co/d/0iUPRrzW)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)

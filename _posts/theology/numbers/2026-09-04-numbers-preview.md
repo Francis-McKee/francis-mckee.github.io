@@ -44,6 +44,6 @@ Everywhere else, if you lost the land, you lost the law. If the Greeks or Romans
 Not so with the Israelites. Because the law was given to the people in the wilderness before they entered the land of Israel, the law came before the land. Therefore, even when the Israelites lost the land, they still had the law. Even when they lost the country, they still had the covenant. This made Jews a nation unlike any other in history, and allowed them to survive as a nation despite future exile and dispersion for a period of almost 2000 years. Jews survived because the covenant was still in force, and God’s law was still law.
 
 ## References
-1. The Hebrew - Greek Key Study Bible (KJV Version)
+1. [Spiros Zodhiates (Editor), *The Hebrew - Greek Key Study Bible: King James Version* (2008)](https://a.co/d/0iUPRrzW)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
 3. [Rabbi Jonathan Sacks, *Covenant & Conversation - Numbers: The Wilderness Years* (2017)](https://a.co/d/0aFan1cm)

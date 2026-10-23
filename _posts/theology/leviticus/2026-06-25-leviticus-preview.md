@@ -50,7 +50,7 @@ Roles of a priest:
 * Distribute resources to those in need (charity and service)
 
 ## References
-1. The Hebrew - Greek Key Study Bible (KJV Version)
+1. [Spiros Zodhiates (Editor), *The Hebrew - Greek Key Study Bible: King James Version* (2008)](https://a.co/d/0iUPRrzW)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
 3. [Rabbi Seymour Rossel, *The Torah Portion-by-Portion* (2007)](https://a.co/d/boaYc5X)
 4. [The BEMA Podcast, Episode 25: A Kingdom of What?](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000383325175)

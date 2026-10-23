@@ -45,5 +45,5 @@ Noah = "comfort"
 The story is good, trust the story...
 
 ## References
-1. The Hebrew - Greek Key Study Bible (KJV Version)
+1. [Spiros Zodhiates (Editor), *The Hebrew - Greek Key Study Bible: King James Version* (2008)](https://a.co/d/0iUPRrzW)
 2. [The BEMA Podcast, Episode 7: The Preface](https://podcasts.apple.com/us/podcast/the-bema-podcast/id1148115183?i=1000377455912)

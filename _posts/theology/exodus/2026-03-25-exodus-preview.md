@@ -18,5 +18,5 @@ The Book of Exodus describes the deliverance of the Israelites from Egypt, their
 The main theme of Exodus is redemption. The deliverance of the children of Israel from bondage in Egypt is a type of all redemption, and Moses who led them is a type of Christ.
 
 ## References
-1. The Hebrew - Greek Key Study Bible (KJV Version)
+1. [Spiros Zodhiates (Editor), *The Hebrew - Greek Key Study Bible: King James Version* (2008)](https://a.co/d/0iUPRrzW)
 2. [When Was Each Book of the Bible Written? - Bible Gateway](https://www.biblegateway.com/learn/bible-101/about-the-bible/when-was-the-bible-written/)
