@@ -41,14 +41,10 @@ section p {
     box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
 }
 
-.am-img { /* about me image */
+img {
     width: 275px;
     height: 275px;
     border-radius: 50%;
-    /*
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    */
 }
 
 /* Icons */
@@ -80,7 +76,7 @@ section a button:hover {
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
 
-    .am-img {
+    img {
         width: 40%;
         height: 40%;
         max-width: 275px;

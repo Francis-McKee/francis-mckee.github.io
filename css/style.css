@@ -72,7 +72,7 @@ main {
   flex: 1;
 }
 
-.header {
+header {
   text-align: center;
   align-items: center;
 }

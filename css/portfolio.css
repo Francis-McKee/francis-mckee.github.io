@@ -1,83 +1,164 @@
-/* projects.html CSS */
+/* portfolio.css
+   Page-specific styles. Load AFTER style.css.
+   Relies on style.css for: font, box-sizing, page background (.wrapper / main),
+   the centered .header, and the .header a color and hover.
+   Breakpoints match style.css (800px tablet, 480px phone). */
 
-/* GitHub and Itch.io Icons */
-.header a {
-    color: #555;
-    text-decoration: none;
-    transition: color 0.3s ease;
+/* ===== Palette (same hex values as style.css) ===== */
+:root {
+  --text:    #000000;
+  --muted:   #1f1f1f;  /* dates: dark enough for contrast on taupe */
+  --accent:  #555555;  /* charcoal */
+  --surface: #9C8B7E;  /* taupe */
+  --light:   #D5D2CD;  /* light warm grey */
 }
 
-.header a:hover {
-    color: #9C8B7E;
+/* ===== Projects ===== */
+.projects {
+  max-width: 75rem;
+  margin: 0 auto 3rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1.5rem;
+  line-height: 1.6;
 }
 
-section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-
-    margin: auto;
-    margin-top: 10px;
-    width: 60%;
-    
-    color: black;
-    background-color: #9C8B7E;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #9C8B7E;
-    border-radius: 15px;
-
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+.projects a { 
+  color: inherit;
 }
 
-section p {
-    text-align: center;
-    width: 100%; /* set to fill 100% of container class block */
-    padding-left: 10px;
-    padding-right: 10px;
+.projects a:focus-visible { 
+  outline: 3px solid var(--text);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
-section a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #555;
-    color: white; /* without important links go invisible? */
-    text-decoration: none;
-    border-radius: 5px;
+.project {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  transition: border-color .25s ease;
 }
 
-section a:hover {
-    background-color: #D5D2CD;
-    color: #555;
+.project:hover {
+  border-color: var(--text);
 }
 
-section img {
-    width: 25px;
-    height: 25px;
+/* Alternate: image left on odd rows, right on even rows */
+.project:nth-child(even) .shot { 
+  order: 2; 
 }
 
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
+/* ===== Image ===== */
+.shot { 
+  margin: 0; 
 }
 
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
+.shot img {
+  display: block;
+  width: 100%;
+  height: 16rem;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--accent); /* placeholder until the image loads */
 }
 
-@media(prefers-reduced-motion: reduce) {
-    .hidden {
-        transition: none;
-    }
+/* ===== Text ===== */
+.details time {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
+.details h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
 
-@media screen and (max-width: 768px) { /* mobile devices & tablets - screen width <= 768px */
-    section {
-      width: 80%;
-    }
+.details h2 a {
+  text-decoration: none;
+  background: linear-gradient(var(--accent), var(--accent)) 0 100% / 0 2px no-repeat;
+  transition: background-size .25s ease;
+}
+
+.details h2 a:hover {
+  background-size: 100% 2px;
+}
+
+.details p {
+  margin: 0 0 1rem;
+  max-width: 65ch;
+}
+
+.details .tech { 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.details .tech li {
+  font-size: 0.8rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+}
+
+/* ===== GitHub button ===== */
+.details .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0;
+  padding: 0.6rem 1.25rem;
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color .25s ease, color .25s ease;
+}
+
+.details .btn:hover {
+  background: var(--light);
+  color: var(--accent);
+}
+
+/* ===== Tablets and phones: stack, image on top ===== */
+@media screen and (max-width: 800px) {
+
+  .shot img {
+    height: auto;
+    aspect-ratio: 2 / 1;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+
+  .project:nth-child(even) .shot { 
+    order: 0; 
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project, 
+  .details h2 a, 
+  .details .btn { 
+    transition: none; 
+  }
 }
