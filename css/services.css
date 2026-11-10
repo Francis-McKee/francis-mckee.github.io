@@ -1,109 +1,60 @@
 /* services.html CSS */
 
-/* clearfix solution to ensure the footer isnt included as a project block */
-.wrapper::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-  
-.noBullet {
-    list-style-type: none;
-}
-  
-main a {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
-
-main a:hover {
-    text-decoration: underline;
-}
-
-li > img {
-    position: relative;
-    width: 100%; /* set to fill 100% of container class block */
-}
-
-img {
-    border: solid 1px black;
-    object-fit: cover;
-}
-
-h1 {
-    text-align: center;
-}
-
-/* Product Block CSS */
-  
-.products li.product {
-    display: block;
-    float: left;
-    width: 300px;
-    margin: 10px;
-}
-  
-.products li.product p {
-    text-align: center;
-    width: 100%; /* set to fill 100% of container class block */
-}
-
-.products li.product p.description {
-    color: #555;
-}
-
-/* Service Block CSS */
-
 .services {
-    clear: both;
-}
-
-.services li.service {
-    display: block;
-    float: left;
-    width: 300px;
-    margin: 10px;
-}
-
-.services li.service p {
+    padding: 3rem 2rem;
     text-align: center;
+    margin-bottom: 2px;
+}
+
+.service-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.service {
+    position: relative;
+    background-color: #9C8B7E;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 370px;
     width: 100%;
 }
 
-.services li.service p.description {
-    color: #555;
+.service img {
+    width: 100%;
+    height: 338px;
+    max-width: 338px;
+    object-fit: cover;
+    border-radius: 6px;
 }
 
-@media screen and (max-width: 480px) { /* mobile devices only - no tablets */
+.service a {
+    color: black;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
 
-    .products,
-    .services,
-    .noBullet {
-        padding: 0;
-        margin: 0;
+.service a:hover {
+    text-decoration: underline;
+}
+
+.service p {
+    margin: 0.75rem 0 0.25rem;
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) { /* mobile devices & tablets */
+    .service-group {
+        grid-template-columns: 1fr;
     }
 
-    .products li.product,
-    .services li.service {
-        float: none;
-        display: block;
-        text-align: center;
-        width: 90%;
-        max-width: 100%;
-        margin: 40px auto;
+    .services {
+        padding: 2.5rem 1.25rem;
     }
-
-    .services li.service:last-child {
-        margin: 20px auto;
-    }
-
-    .services img {
-        display: block;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
 }
 
 
