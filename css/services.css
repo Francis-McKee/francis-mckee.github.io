@@ -1,4 +1,4 @@
-/* shop.html CSS */
+/* services.html CSS */
 
 /* clearfix solution to ensure the footer isnt included as a project block */
 .wrapper::after {
@@ -94,12 +94,10 @@ h1 {
         margin: 40px auto;
     }
 
-    .products li.product:last-child,
     .services li.service:last-child {
         margin: 20px auto;
     }
 
-    .products img,
     .services img {
         display: block;
         max-width: 100%;
