@@ -105,11 +105,12 @@
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .details .btn:hover {
-  background-color: #9C8B7E;
+  color: #555;
+  background-color: #D5D2CD;
 }
 
 @media screen and (max-width: 768px) { /* mobile devices & tablets */

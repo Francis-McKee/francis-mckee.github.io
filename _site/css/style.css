@@ -135,6 +135,10 @@ footer i {
   margin-right: 10px;
 }
 
+footer i:hover {
+  color: #D5D2CD;
+}
+
 footer .copy {
   display: block;
   text-align: center;
